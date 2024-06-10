@@ -1,0 +1,294 @@
+D:\dot net\API_QLRP\bin\Debug\net8.0\appsettings.Development.json
+D:\dot net\API_QLRP\bin\Debug\net8.0\appsettings.json
+D:\dot net\API_QLRP\bin\Debug\net8.0\API_QLRP.exe
+D:\dot net\API_QLRP\bin\Debug\net8.0\API_QLRP.deps.json
+D:\dot net\API_QLRP\bin\Debug\net8.0\API_QLRP.runtimeconfig.json
+D:\dot net\API_QLRP\bin\Debug\net8.0\API_QLRP.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\API_QLRP.pdb
+D:\dot net\API_QLRP\bin\Debug\net8.0\Azure.Core.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Azure.Identity.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Humanizer.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.CodeDom.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Memory.Data.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\dot net\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.csproj.AssemblyReference.cache
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.AssemblyInfoInputs.cache
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.AssemblyInfo.cs
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.csproj.CoreCompileInputs.cache
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.MvcApplicationPartsAssemblyInfo.cs
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.MvcApplicationPartsAssemblyInfo.cache
+D:\dot net\API_QLRP\obj\Debug\net8.0\staticwebassets.build.json
+D:\dot net\API_QLRP\obj\Debug\net8.0\staticwebassets.development.json
+D:\dot net\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.API_QLRP.Microsoft.AspNetCore.StaticWebAssets.props
+D:\dot net\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.build.API_QLRP.props
+D:\dot net\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_QLRP.props
+D:\dot net\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_QLRP.props
+D:\dot net\API_QLRP\obj\Debug\net8.0\staticwebassets.pack.json
+D:\dot net\API_QLRP\obj\Debug\net8.0\scopedcss\bundle\API_QLRP.styles.css
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.csproj.Up2Date
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.dll
+D:\dot net\API_QLRP\obj\Debug\net8.0\refint\API_QLRP.dll
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.pdb
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.genruntimeconfig.cache
+D:\dot net\API_QLRP\obj\Debug\net8.0\ref\API_QLRP.dll
+D:\dot net\API_QLRP\obj\Debug\net8.0\API_QLRP.sourcelink.json
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\appsettings.Development.json
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\appsettings.json
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\API_QLRP.exe
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\API_QLRP.deps.json
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\API_QLRP.runtimeconfig.json
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\API_QLRP.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\API_QLRP.pdb
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Azure.Core.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Azure.Identity.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Humanizer.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.CodeDom.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Memory.Data.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\WEB-Bự\BackEnd\API_QLRP\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.csproj.AssemblyReference.cache
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.AssemblyInfoInputs.cache
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.AssemblyInfo.cs
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.csproj.CoreCompileInputs.cache
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.MvcApplicationPartsAssemblyInfo.cs
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.MvcApplicationPartsAssemblyInfo.cache
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.sourcelink.json
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\staticwebassets.build.json
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\staticwebassets.development.json
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.API_QLRP.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.build.API_QLRP.props
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_QLRP.props
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_QLRP.props
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\scopedcss\bundle\API_QLRP.styles.css
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.csproj.Up2Date
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.dll
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\refint\API_QLRP.dll
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.pdb
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\API_QLRP.genruntimeconfig.cache
+D:\WEB-Bự\BackEnd\API_QLRP\obj\Debug\net8.0\ref\API_QLRP.dll

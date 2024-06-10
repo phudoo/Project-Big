@@ -1,0 +1,77 @@
+.dashboard {
+    margin: 10px; /* Thu nhỏ margin */
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Giảm độ đậm của shadow */
+    transition: transform 0.2s; /* Giảm thời gian chuyển động */
+}
+
+.card:hover {
+    transform: translateY(-3px); /* Giảm khoảng cách khi hover */
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px; /* Giảm padding */
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px; /* Giảm padding */
+}
+
+.btn-primary {
+    transition: background-color 0.2s, border-color 0.2s; /* Giảm thời gian chuyển động */
+    font-size: 0.9rem; /* Thu nhỏ kích thước font */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0 -5px; /* Giảm margin giữa các phần tử */
+}
+
+.movie {
+    margin: 0 5px; /* Giảm margin giữa các phần tử */
+    text-align: center;
+    max-width: calc(25% - 10px); /* Đảm bảo chỉ có 4 cột trên mỗi hàng */
+    flex: 1 1 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.movie img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.movie h6 {
+    margin-top: 5px; /* Giảm khoảng cách */
+    font-size: 0.9rem; /* Thu nhỏ kích thước font */
+}
+
+.movie p {
+    margin-top: 3px; /* Giảm khoảng cách */
+    font-size: 0.7rem; /* Thu nhỏ kích thước font */
+    color: #666;
+}
+
+@media (max-width: 800px) {
+    .movie {
+        flex-basis: calc(50% - 10px); /* Đảm bảo chỉ có 2 cột trên mỗi hàng */
+    }
+}

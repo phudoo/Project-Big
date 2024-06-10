@@ -1,0 +1,22 @@
+.slideshow {
+    display: grid;
+    grid-template-columns: repeat(5, 900px); /* Số lượng ảnh và kích thước của mỗi ảnh */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slideshow img {
+    width: 850px; /* Kích thước của ảnh */
+    height: auto;
+    border-radius: 20px; /* Bo tròn góc các ảnh, bạn có thể điều chỉnh giá trị này */
+    animation: slide 20s linear infinite; /* Thời gian trượt và kiểu chuyển động */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Di chuyển sang trái */
+    }
+}
