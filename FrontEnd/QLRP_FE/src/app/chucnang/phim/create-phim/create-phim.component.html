@@ -1,0 +1,13 @@
+<form (ngSubmit)="onSubmit()" #phimForm="ngForm">
+    <div>
+      <label for="TieuDe">Title:</label>
+      <input type="text" id="TieuDe" required [(ngModel)]="phim.TieuDe" name="TieuDe" #TieuDe="ngModel">
+      <div *ngIf="TieuDe.invalid && (TieuDe.dirty || TieuDe.touched)" class="error">
+        <div *ngIf="TieuDe.errors">Title is required.</div>
+      </div>
+      
+    </div>
+    <!-- Repeat the above pattern for other fields -->
+    <button type="submit" [disabled]="phimForm.invalid">Create</button>
+  </form>
+  

@@ -12,7 +12,7 @@ export class ListXuatChieuComponent {
   constructor(private lichchieus: LichchieuService) {}
 
   ngOnInit(): void {
-    this.lichchieus.getSuat().subscribe(res => {
+    this.lichchieus.getLich().subscribe(res => {
       this.LichChieu = res;
       console.log(this.LichChieu);
     });

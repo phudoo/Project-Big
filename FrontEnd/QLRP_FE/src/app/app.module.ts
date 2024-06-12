@@ -17,7 +17,8 @@ import { ListXuatChieuComponent } from './Component/list-xuat-chieu/list-xuat-ch
 import { DatVeComponent } from './Component/dat-ve/dat-ve.component';
 import { DangKyComponent } from './Component/dang-ky/dang-ky.component';
 import { NguoiDungComponent } from './Component/nguoi-dung/nguoi-dung.component';
-
+import { CreatePhimComponent } from './chucnang/phim/create-phim/create-phim.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,12 +34,14 @@ import { NguoiDungComponent } from './Component/nguoi-dung/nguoi-dung.component'
     DatVeComponent,
     DangKyComponent,
     NguoiDungComponent,
-    ListPhimComponent
+    ListPhimComponent,
+    CreatePhimComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule, // Add HttpClientModule here
+    HttpClientModule, 
+    FormsModule// Add HttpClientModule here
   ],
   providers: [
     provideHttpClient(
