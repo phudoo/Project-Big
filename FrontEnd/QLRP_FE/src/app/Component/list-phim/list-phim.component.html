@@ -1,1 +1,43 @@
-<p>list-phim works!</p>
+<!-- <h2> {{title}}</h2>
+<thead>
+    <tr> 
+        <th> 
+            PhimId
+        </th>
+        <th>
+            tieude
+        </th>
+        <th>
+            anh
+        </th>
+    </tr>
+</thead>
+<tbody> 
+<tr *ngFor="let s of phims">
+      <td > 
+     {{s.phimId}}
+      </td>
+      <td> {{s.TieuDe}}</td>
+      <td>
+        <img [src]="s.posterURL" alt="{{ s.tieuDe }}" width="100">
+      </td>
+</tr>
+</tbody> -->
+<h2> {{title}}</h2>
+<table>
+    <thead>
+        <tr> 
+            <th>PhimId</th>
+            <th>Tiêu đề</th>
+            <th>Thể loạiii</th>
+        
+        </tr>
+    </thead>
+    <tbody> 
+        <tr *ngFor="let s of Phim">
+            <td>{{s.PhimID}}</td>
+            <td> {{s.TieuDe}}</td>
+            <td>{{s.TheLoai}}</td>
+        </tr>
+    </tbody>
+</table>

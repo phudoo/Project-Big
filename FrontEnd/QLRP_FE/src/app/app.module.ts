@@ -33,6 +33,7 @@ import { NguoiDungComponent } from './Component/nguoi-dung/nguoi-dung.component'
     DatVeComponent,
     DangKyComponent,
     NguoiDungComponent,
+    ListPhimComponent
   ],
   imports: [
     BrowserModule,

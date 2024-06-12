@@ -1,1 +1,19 @@
-<p>list-xuat-chieu works!</p>
+<h2> {{title}}</h2>
+<table>
+    <thead>
+        <tr> 
+            <th>Lịch Chiếu</th>
+            <th>Phim Id </th>
+            <th>Phong Chieu </th>
+        
+        </tr>
+    </thead>
+    <tbody> 
+        <tr *ngFor="let s of LichChieu">
+            <td>{{s.LichChieuID}}</td>
+            <td> {{s.PhimID}}</td>
+            <td>  {{s.Phim}}</td>
+            <td>{{s.PhongChieuID}}</td>
+        </tr>
+    </tbody>
+</table>

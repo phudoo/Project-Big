@@ -1,1 +1,18 @@
-<p>list-phong-chieu works!</p>
+<h2> {{title}}</h2>
+<table>
+    <thead>
+        <tr> 
+            <th>PhimId</th>
+            <th>Số Phòng</th>
+            <th>Sức Chứa</th>
+        
+        </tr>
+    </thead>
+    <tbody> 
+        <tr *ngFor="let s of Phong">
+            <td>{{s.PhongChieuID}}</td>
+            <td> {{s.SoPhong}}</td>
+            <td>{{s.SucChua}}</td>
+        </tr>
+    </tbody>
+</table>
