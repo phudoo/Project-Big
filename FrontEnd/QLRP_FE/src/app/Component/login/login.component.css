@@ -1,77 +1,74 @@
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000; /* Ensure it is above other components */
+.outer {
+    height: 100vh;
+    background: linear-gradient(to top, #c9c9ff 50%, #6e6ef6 90%) no-repeat;
 }
 
-.login-container {
-    position: relative;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+.panel-heading {
     text-align: center;
+    margin-top: 10px;
 }
 
-.close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    color: #666;
-}
-
-h2 {
-    margin-bottom: 20px;
-}
-
-.input-group {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-close-a {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+#forgot {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none;
     cursor: pointer;
 }
 
-close-a:hover {
-    background-color: #45a049;
+a:hover {
+    text-decoration: none;
 }
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+
+.form-inline label {
+    padding-left: 10px;
+    margin: 0;
     cursor: pointer;
+}
+
+.btn {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.panel {
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    border-radius: 12px;
+    margin-top: 100px;
+}
+
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    color: #4343df;
+}
+
+.input-field.error {
+    border: 1px solid red;
+    color: red;
+}
+
+input[type='text'],
+input[type='password'] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
 }

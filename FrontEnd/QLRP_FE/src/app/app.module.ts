@@ -18,7 +18,7 @@ import { DatVeComponent } from './Component/dat-ve/dat-ve.component';
 import { DangKyComponent } from './Component/dang-ky/dang-ky.component';
 import { NguoiDungComponent } from './Component/nguoi-dung/nguoi-dung.component';
 import { CreatePhimComponent } from './chucnang/phim/create-phim/create-phim.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +41,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule, 
-    FormsModule// Add HttpClientModule here
+    FormsModule,// Add HttpClientModule here
+    ReactiveFormsModule
   ],
   providers: [
     provideHttpClient(

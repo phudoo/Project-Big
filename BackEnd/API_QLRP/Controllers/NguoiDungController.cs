@@ -19,6 +19,25 @@ namespace API_QLRP.Controllers
             _context = context;
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            if (string.IsNullOrEmpty(request.TenNguoiDung) || string.IsNullOrEmpty(request.MatKhau))
+            {
+                return BadRequest("TenNguoiDung and MatKhau are required.");
+            }
+
+            var user = await _context.NguoiDungs
+                .FirstOrDefaultAsync(u => u.TenNguoiDung == request.TenNguoiDung && u.MatKhau == request.MatKhau);
+
+            if (user == null)
+            {
+                return Unauthorized("Invalid username or password.");
+            }
+
+            return Ok(new { Message = "Login successful.", User = user });
+        }
+
         // GET: api/NguoiDungs
         [HttpGet]
         public async Task<ActionResult<IEnumerable<NguoiDung>>> GetNguoiDungs()
