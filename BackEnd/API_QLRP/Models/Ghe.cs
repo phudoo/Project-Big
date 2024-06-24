@@ -9,11 +9,11 @@ namespace API_QLRP.Models
         public int GheID { get; set; }
 
         public int PhongChieuID { get; set; }
+        [ForeignKey("PhongChieuID")]
+        public PhongChieu PhongChieu { get; set; }
 
         public string SoGhe { get; set; }
 
         public string TrangThai { get; set; }
-
-
     }
 }

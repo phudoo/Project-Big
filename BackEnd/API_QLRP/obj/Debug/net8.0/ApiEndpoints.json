@@ -327,6 +327,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API_QLRP.Controllers.NguoiDungsController",
+    "Method": "Login",
+    "RelativePath": "api/NguoiDungs/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "API_QLRP.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_QLRP.Controllers.PhimsController",
     "Method": "GetPhims",
     "RelativePath": "api/Phims",

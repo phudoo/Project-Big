@@ -1,6 +1,6 @@
 ﻿{
   "ConnectionStrings": {
-    "QLRP": "Data Source=DESKTOP-NJTJG85;Initial Catalog=RapPhim;Integrated Security=True;Trust Server Certificate=True"
+    "QLRP": "Data Source=DESKTOP-NJTJG85;Initial Catalog=RapPhimm;Integrated Security=True;Trust Server Certificate=True"
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {

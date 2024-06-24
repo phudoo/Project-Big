@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_QLRP.Migrations
 {
     [DbContext(typeof(CinemaDbContext))]
-    [Migration("20240609091459_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240623033005_Phu")]
+    partial class Phu
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,8 @@ namespace API_QLRP.Migrations
 
                     b.HasKey("GheID");
 
+                    b.HasIndex("PhongChieuID");
+
                     b.ToTable("Ghes");
                 });
 
@@ -69,6 +71,8 @@ namespace API_QLRP.Migrations
                     b.HasKey("LichChieuID");
 
                     b.HasIndex("PhimID");
+
+                    b.HasIndex("PhongChieuID");
 
                     b.ToTable("LichChieus");
                 });
@@ -111,7 +115,6 @@ namespace API_QLRP.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PhimID"));
 
                     b.Property<decimal>("DanhGia")
-                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("DaoDien")
@@ -180,7 +183,6 @@ namespace API_QLRP.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("Gia")
-                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("LichChieuID")
@@ -194,7 +196,24 @@ namespace API_QLRP.Migrations
 
                     b.HasKey("VeID");
 
+                    b.HasIndex("GheID");
+
+                    b.HasIndex("LichChieuID");
+
+                    b.HasIndex("NguoiDungID");
+
                     b.ToTable("Ves");
+                });
+
+            modelBuilder.Entity("API_QLRP.Models.Ghe", b =>
+                {
+                    b.HasOne("API_QLRP.Models.PhongChieu", "PhongChieu")
+                        .WithMany()
+                        .HasForeignKey("PhongChieuID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("PhongChieu");
                 });
 
             modelBuilder.Entity("API_QLRP.Models.LichChieu", b =>
@@ -205,7 +224,42 @@ namespace API_QLRP.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("API_QLRP.Models.PhongChieu", "PhongChieu")
+                        .WithMany()
+                        .HasForeignKey("PhongChieuID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Phim");
+
+                    b.Navigation("PhongChieu");
+                });
+
+            modelBuilder.Entity("API_QLRP.Models.Ve", b =>
+                {
+                    b.HasOne("API_QLRP.Models.Ghe", "Ghe")
+                        .WithMany()
+                        .HasForeignKey("GheID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("API_QLRP.Models.LichChieu", "LichChieu")
+                        .WithMany()
+                        .HasForeignKey("LichChieuID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("API_QLRP.Models.NguoiDung", "NguoiDung")
+                        .WithMany()
+                        .HasForeignKey("NguoiDungID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ghe");
+
+                    b.Navigation("LichChieu");
+
+                    b.Navigation("NguoiDung");
                 });
 #pragma warning restore 612, 618
         }

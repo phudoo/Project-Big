@@ -1,5 +1,5 @@
-﻿CREATE DATABASE RapPhim;
-USE RapPhim;
+﻿CREATE DATABASE RapPhimmm;
+USE RapPhimmm;
 Drop DATABASE RapPhim;
 -- Create table for KhachHang (Customer)
 CREATE TABLE KhachHang (
