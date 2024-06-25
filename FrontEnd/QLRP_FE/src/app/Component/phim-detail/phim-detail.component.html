@@ -1,0 +1,28 @@
+<app-header>
+</app-header>
+<div class="movie-details-container" *ngIf="phim">
+    <div class="movie-details">
+        <img [src]="phim.PosterURL" alt="Poster" class="movie-details__poster">
+        <div class="movie-details__info">
+            <p><strong>Tên:</strong> {{ phim.TieuDe }}</p>
+            <p><strong>Mô tả:</strong> {{ phim.MoTa }}</p>
+            <p><strong>Đạo diễn:</strong> {{ phim.DaoDien }}</p>
+            <p><strong>Thể loại:</strong> {{ phim.TheLoai }}</p>
+            <p><strong>Thời lượng:</strong> {{ phim.ThoiLuong }}</p>
+            <p><strong>Ngày khởi chiếu:</strong> {{ phim.NgayKhoiChieu }}</p>
+            <p><strong>Đánh giá:</strong> {{ phim.DanhGia }}</p>
+
+            <div class="button-container">
+                <button class="btn-book-ticket">Đặt vé</button>
+                <button class="btn-back-to-list" >Quay về danh sách phim</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="loading-container" *ngIf="!phim">
+    <div class="loading">
+        <p>Loading...</p>
+    </div>
+</div>
+<app-footer></app-footer>

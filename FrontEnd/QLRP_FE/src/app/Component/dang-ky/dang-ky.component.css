@@ -1,0 +1,72 @@
+/* Body background and spacing */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    padding-top: 50px;
+  }
+  
+  /* Form styling */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styling */
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333; /* Dark gray color */
+  }
+  
+  /* Input field styling */
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+    margin-bottom: 16px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="email"]:focus,
+  form input[type="password"]:focus {
+    border-color: #87ceeb; /* Light blue color on focus */
+    box-shadow: 0 0 0 0.2rem rgba(135, 206, 235, 0.25); /* Light blue shadow on focus */
+  }
+  
+  /* Button styling */
+  form button {
+    background-color: #87ceeb; /* Light blue color */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #6ca6cd; /* Slightly darker blue on hover */
+  }
+  
+  /* Error message styling */
+  .text-danger {
+    font-size: 0.875rem;
+    color: #dc3545; /* Red color for errors */
+  }
+  
+  /* Link styling */
+  .text-muted a {
+    color: #ff69b4; /* Pink color */
+  }
+  
+  .text-muted a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

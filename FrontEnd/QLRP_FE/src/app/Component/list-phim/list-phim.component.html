@@ -1,43 +1,32 @@
-<!-- <h2> {{title}}</h2>
-<thead>
-    <tr> 
-        <th> 
-            PhimId
-        </th>
-        <th>
-            tieude
-        </th>
-        <th>
-            anh
-        </th>
-    </tr>
-</thead>
-<tbody> 
-<tr *ngFor="let s of phims">
-      <td > 
-     {{s.phimId}}
-      </td>
-      <td> {{s.TieuDe}}</td>
-      <td>
-        <img [src]="s.posterURL" alt="{{ s.tieuDe }}" width="100">
-      </td>
-</tr>
-</tbody> -->
-<h2> {{title}}</h2>
-<table>
-    <thead>
-        <tr> 
-            <th>PhimId</th>
-            <th>Tiêu đề</th>
-            <th>Thể loạiii</th>
-        
-        </tr>
-    </thead>
-    <tbody> 
-        <tr *ngFor="let s of Phim">
-            <td>{{s.PhimID}}</td>
-            <td> {{s.TieuDe}}</td>
-            <td>{{s.TheLoai}}</td>
-        </tr>
-    </tbody>
-</table>
+<app-header></app-header>
+<app-poster></app-poster>
+<h2>{{ title }}</h2>
+
+<div class="movie-list">
+  <div *ngFor="let s of Phim.slice(startIndex, endIndex + 1)" class="movie-item">
+    <img [src]="s.PosterURL" alt="Poster" class="movie-poster">
+    <div class="movie-details">
+      <p><strong>PhimID:</strong> {{ s.PhimID }}</p>
+      <p><strong>Tiêu đề:</strong> {{ s.TieuDe }}</p>
+      <p><strong>Thể loại:</strong> {{ s.TheLoai }}</p>
+      <p><strong>Mô tả:</strong> {{ s.MoTa }}</p>
+      <p><strong>Đạo diễn:</strong> {{ s.DaoDien }}</p>
+      <p><strong>Thời lượng:</strong> {{ s.ThoiLuong }}</p>
+      <p><strong>Ngày khởi chiếu:</strong> {{ s.NgayKhoiChieu }}</p>
+      <p><strong>Đánh giá:</strong> {{ s.DanhGia }}</p>
+      <div class="button-group">
+        <button [routerLink]="['/datve', s.PhimID]" class="btn-primary">Đặt vé</button>
+        <a [routerLink]="['/phim-detail', s.PhimID]" class="btn-secondary">Xem chi tiết</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pagination controls -->
+<div class="pagination">
+  <button class="btn-pagination" (click)="prevPage()" [disabled]="currentPage === 1">Prev</button>
+  <span class="pagination-info">Page {{ currentPage }} of {{ totalPages }}</span>
+  <button class="btn-pagination" (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+</div>
+
+<app-footer></app-footer>

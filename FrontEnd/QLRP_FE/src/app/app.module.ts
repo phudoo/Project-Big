@@ -20,6 +20,7 @@ import { NguoiDungComponent } from './Component/nguoi-dung/nguoi-dung.component'
 import { CreatePhimComponent } from './chucnang/phim/create-phim/create-phim.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ManagerComponent } from './Component/admin/manager/manager.component';
+import { PhimDetailComponent } from './Component/phim-detail/phim-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +39,7 @@ import { ManagerComponent } from './Component/admin/manager/manager.component';
     ListPhimComponent,
     CreatePhimComponent,
     ManagerComponent,
+    PhimDetailComponent,
   ],
   imports: [
     BrowserModule,

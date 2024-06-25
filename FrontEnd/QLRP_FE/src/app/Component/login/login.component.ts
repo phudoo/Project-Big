@@ -39,7 +39,7 @@ export class LoginComponent {
           if (response.Role === 'Admin') {
             this.router.navigate(['manager']);
           } else {
-            this.router.navigate(['dashboard']);
+            this.router.navigate(['listphim']);
           }
         },
         error => {

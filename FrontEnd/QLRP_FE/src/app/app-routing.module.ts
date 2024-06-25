@@ -8,13 +8,16 @@ import { DangKyComponent } from './Component/dang-ky/dang-ky.component';
 import { DashboardComponent } from './Component/dashboard/dashboard.component';
 import { AuthGuard } from './service/auth-guard.service';
 import { ManagerComponent } from './Component/admin/manager/manager.component';
+import { PhimDetailComponent } from './Component/phim-detail/phim-detail.component';
+
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'dangky', component:DangKyComponent},
   { path: 'manager', component: ManagerComponent, canActivate: [AuthGuard] },
   { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard]},
+  { path: 'phim-detail/:id', component: PhimDetailComponent},
   { path: '', redirectTo: '/login', pathMatch: 'full' },
-  { path: '', component: ListPhimComponent},
+  { path: 'listphim', component: ListPhimComponent},
   { path: '', component:ListPhongChieuComponent},
   { path: 'create-phim', component: CreatePhimComponent }
 ];
