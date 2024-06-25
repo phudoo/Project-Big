@@ -19,6 +19,7 @@ import { DangKyComponent } from './Component/dang-ky/dang-ky.component';
 import { NguoiDungComponent } from './Component/nguoi-dung/nguoi-dung.component';
 import { CreatePhimComponent } from './chucnang/phim/create-phim/create-phim.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ManagerComponent } from './Component/admin/manager/manager.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NguoiDungComponent,
     ListPhimComponent,
     CreatePhimComponent,
+    ManagerComponent,
   ],
   imports: [
     BrowserModule,

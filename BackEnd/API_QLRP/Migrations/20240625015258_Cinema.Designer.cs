@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_QLRP.Migrations
 {
     [DbContext(typeof(CinemaDbContext))]
-    [Migration("20240623033005_Phu")]
-    partial class Phu
+    [Migration("20240625015258_Cinema")]
+    partial class Cinema
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

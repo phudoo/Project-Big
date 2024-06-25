@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace API_QLRP.Migrations
 {
     /// <inheritdoc />
-    public partial class Phu : Migration
+    public partial class Cinema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -61,8 +61,7 @@ namespace API_QLRP.Migrations
                     table.PrimaryKey("PK_PhongChieus", x => x.PhongChieuID);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Ghes",
+            migrationBuilder.CreateTable(name: "Ghes",
                 columns: table => new
                 {
                     GheID = table.Column<int>(type: "int", nullable: false)

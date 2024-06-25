@@ -24,6 +24,7 @@ export class LoginComponent {
       matKhau: ['', Validators.required]
     });
   }
+
   hideShowPass() {
     this.isText = !this.isText;
     this.isText ? (this.eyeIcon = 'fa-eye') : (this.eyeIcon = 'fa-eye-slash');
@@ -34,8 +35,12 @@ export class LoginComponent {
     if (this.loginForm.valid) {
       const { tenNguoiDung, matKhau } = this.loginForm.value;
       this.authService.login(tenNguoiDung, matKhau).subscribe(
-        () => {
-          this.router.navigate(['dashboard']);
+        response => {
+          if (response.Role === 'Admin') {
+            this.router.navigate(['manager']);
+          } else {
+            this.router.navigate(['dashboard']);
+          }
         },
         error => {
           // Handle login error

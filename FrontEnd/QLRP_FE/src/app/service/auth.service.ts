@@ -16,7 +16,9 @@ export class AuthService {
       .pipe(
         map(response => {
           if (response && response.token) {
-            localStorage.setItem('currentUser', JSON.stringify(response));
+            if (typeof window !== 'undefined') {
+              localStorage.setItem('currentUser', JSON.stringify(response));
+            }
           }
           return response;
         })
@@ -24,10 +26,23 @@ export class AuthService {
   }
 
   logout(): void {
-    localStorage.removeItem('currentUser');
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('currentUser');
+    }
   }
 
   public get loggedIn(): boolean {
-    return localStorage.getItem('currentUser') !== null;
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('currentUser') !== null;
+    }
+    return false;
+  }
+
+  public get currentUserRole(): string | null {
+    if (typeof window !== 'undefined') {
+      const currentUser = localStorage.getItem('currentUser');
+      return currentUser ? JSON.parse(currentUser).Role : null;
+    }
+    return null;
   }
 }

@@ -35,8 +35,9 @@ namespace API_QLRP.Controllers
                 return Unauthorized("Invalid username or password.");
             }
 
-            return Ok(new { Message = "Login successful.", User = user });
+            return Ok(new { Message = "Login successful.", User = user, Role = user.VaiTro });
         }
+
 
         // GET: api/NguoiDungs
         [HttpGet]

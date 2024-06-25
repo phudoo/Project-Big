@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_QLRP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42ac3361cff39c99524387ad18191c15f76c024d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c291c50a424a98bb1bc4e1be697b377c84087b5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_QLRP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_QLRP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
