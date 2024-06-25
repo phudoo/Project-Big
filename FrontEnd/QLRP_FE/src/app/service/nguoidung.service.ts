@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { NguoiDung } from '../Models/NguoiDung';
 
 @Injectable({
   providedIn: 'root'
@@ -11,8 +12,8 @@ export class NguoiDungService {
   constructor(private http: HttpClient) {}
 
   // Get all users
-  getNguoiDung(): Observable<any> {
-    return this.http.get<any>(this.apiURL);
+  getNguoiDung(): Observable<NguoiDung[]> {
+    return this.http.get<NguoiDung[]>(this.apiURL);
   }
 
   // Get user by ID

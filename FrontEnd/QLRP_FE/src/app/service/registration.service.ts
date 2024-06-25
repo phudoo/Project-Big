@@ -1,14 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
-export interface NguoiDung {
-  nguoiDungID: number;
-  tenNguoiDung: string;
-  email: string;
-  matKhau: string;
-  vaiTro: string;
-}
+import { NguoiDung } from '../Models/NguoiDung';
 
 @Injectable({
   providedIn: 'root'

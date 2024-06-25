@@ -1,0 +1,57 @@
+<div class="container">
+    <h2 class="text-center mt-4">Danh sách người dùng</h2>
+    <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
+    
+    <div *ngIf="showForm">
+      <form (ngSubmit)="saveNguoiDung()">
+        <div class="form-group">
+          <label for="TenNguoiDung">Tên người dùng:</label>
+          <input type="text" id="TenNguoiDung" [(ngModel)]="newNguoiDung.TenNguoiDung" name="TenNguoiDung" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="Email">Email:</label>
+          <input type="email" id="Email" [(ngModel)]="newNguoiDung.Email" name="Email" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="MatKhau">Mật khẩu:</label>
+          <input type="password" id="MatKhau" [(ngModel)]="newNguoiDung.MatKhau" name="MatKhau" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="VaiTro">Vai trò:</label>
+          <select class="form-control" id="VaiTro" [(ngModel)]="newNguoiDung.VaiTro" name="VaiTro" required>
+            <option value="Admin">Admin</option>
+            <option value="User">User</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-success">Lưu</button>
+        <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
+      </form>
+    </div>
+  
+    <table class="table table-striped mt-4">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Tên người dùng</th>
+          <th>Email</th>
+          <th>Mật khẩu</th>
+          <th>Vai trò</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let nguoiDung of nguoiDungs">
+          <td>{{ nguoiDung.NguoiDungID }}</td>
+          <td>{{ nguoiDung.TenNguoiDung }}</td>
+          <td>{{ nguoiDung.Email }}</td>
+          <td>{{ nguoiDung.MatKhau }}</td>
+          <td>{{ nguoiDung.VaiTro }}</td>
+          <td>
+            <button class="btn btn-warning" (click)="editNguoiDung(nguoiDung)">Sửa</button>
+            <button class="btn btn-danger" (click)="deleteNguoiDung(nguoiDung.NguoiDungID)">Xóa</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

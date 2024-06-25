@@ -1,7 +1,7 @@
 export interface NguoiDung {
-    nguoiDungID: number;
-    tenNguoiDung: string;
-    email: string;
-    matKhau: string;
-    vaiTro: string;
-  }
+  NguoiDungID: number;
+  TenNguoiDung: string;
+  Email: string;
+  MatKhau: string;
+  VaiTro: string;
+}

@@ -9,10 +9,12 @@ import { DashboardComponent } from './Component/dashboard/dashboard.component';
 import { AuthGuard } from './service/auth-guard.service';
 import { ManagerComponent } from './Component/admin/manager/manager.component';
 import { PhimDetailComponent } from './Component/phim-detail/phim-detail.component';
+import { ListNguoiDungComponent } from './Component/admin/nguoidung/list-nguoidung/list-nguoidung.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'dangky', component:DangKyComponent},
+  { path: 'list-nguoidung', component: ListNguoiDungComponent },
   { path: 'manager', component: ManagerComponent, canActivate: [AuthGuard] },
   { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard]},
   { path: 'phim-detail/:id', component: PhimDetailComponent},

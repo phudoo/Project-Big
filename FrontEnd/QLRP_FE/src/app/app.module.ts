@@ -21,6 +21,7 @@ import { CreatePhimComponent } from './chucnang/phim/create-phim/create-phim.com
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ManagerComponent } from './Component/admin/manager/manager.component';
 import { PhimDetailComponent } from './Component/phim-detail/phim-detail.component';
+import { ListNguoiDungComponent } from './Component/admin/nguoidung/list-nguoidung/list-nguoidung.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +41,7 @@ import { PhimDetailComponent } from './Component/phim-detail/phim-detail.compone
     CreatePhimComponent,
     ManagerComponent,
     PhimDetailComponent,
+    ListNguoiDungComponent
   ],
   imports: [
     BrowserModule,

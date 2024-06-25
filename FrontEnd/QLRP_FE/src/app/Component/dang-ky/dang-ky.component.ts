@@ -12,11 +12,11 @@ import { NguoiDung } from '../../Models/NguoiDung';
 export class DangKyComponent implements OnInit {
   registerForm!: FormGroup;
   nguoiDung: NguoiDung = {
-    nguoiDungID: 0,
-    tenNguoiDung: '',
-    email: '',
-    matKhau: '',
-    vaiTro: 'User'
+    NguoiDungID: 0,
+    TenNguoiDung: '',
+    Email: '',
+    MatKhau: '',
+    VaiTro: 'User'
   };
 
   constructor(
@@ -27,17 +27,17 @@ export class DangKyComponent implements OnInit {
 
   ngOnInit() {
     this.registerForm = this.formBuilder.group({
-      tenNguoiDung: ['', Validators.required],
-      email: ['', [Validators.required, Validators.email]],
-      matKhau: ['', Validators.required],
+      TenNguoiDung: ['', Validators.required],
+      Email: ['', [Validators.required, Validators.email]],
+      MatKhau: ['', Validators.required],
     });
   }
 
   onSubmit() {
     if (this.registerForm.valid) {
-      this.nguoiDung.tenNguoiDung = this.registerForm.get('tenNguoiDung')?.value;
-      this.nguoiDung.email = this.registerForm.get('email')?.value;
-      this.nguoiDung.matKhau = this.registerForm.get('matKhau')?.value;
+      this.nguoiDung.TenNguoiDung = this.registerForm.get('TenNguoiDung')?.value;
+      this.nguoiDung.Email = this.registerForm.get('Email')?.value;
+      this.nguoiDung.MatKhau = this.registerForm.get('MatKhau')?.value;
       
       this.registrationService.addNguoiDung(this.nguoiDung).subscribe(response => {
         console.log('Người dùng đã được đăng ký thành công:', response);
