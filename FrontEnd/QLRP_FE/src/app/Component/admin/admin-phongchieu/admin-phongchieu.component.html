@@ -1,0 +1,41 @@
+<div class="container">
+    <h2 class="text-center mt-4">Danh sách phòng chiếu</h2>
+    <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
+    
+    <div *ngIf="showForm">
+      <form (ngSubmit)="savePhongChieu()">
+        <div class="form-group">
+          <label for="SoPhong">Số phòng:</label>
+          <input type="number" id="SoPhong" [(ngModel)]="newPhongChieu.SoPhong" name="SoPhong" class="form-control" required>
+        </div>
+        <div class="form-group">
+          <label for="SucChua">Sức chứa:</label>
+          <input type="number" id="SucChua" [(ngModel)]="newPhongChieu.SucChua" name="SucChua" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success">Lưu</button>
+        <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
+      </form>
+    </div>
+  
+    <table class="table table-striped mt-4">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Số phòng</th>
+          <th>Sức chứa</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let phongChieu of phongChieus">
+          <td>{{ phongChieu.PhongChieuID }}</td>
+          <td>{{ phongChieu.SoPhong }}</td>
+          <td>{{ phongChieu.SucChua }}</td>
+          <td>
+            <button class="btn btn-warning" (click)="editPhongChieu(phongChieu)">Sửa</button>
+            <button class="btn btn-danger" (click)="deletePhongChieu(phongChieu.PhongChieuID)">Xóa</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>

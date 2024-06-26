@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-
+import { PhongChieu } from '../Models/Phongchieu';
 @Injectable({
   providedIn: 'root'
 })
@@ -11,19 +11,19 @@ export class PhongService {
   constructor(private http: HttpClient) {}
 
   // Get all rooms
-  getPhong(): Observable<any> {
-    return this.http.get<any>(this.apiURL);
+  getPhong(): Observable<PhongChieu[]> {
+    return this.http.get<PhongChieu[]>(this.apiURL);
   }
 
   // Add a new room
-  addPhong(phong: any): Observable<any> {
-    return this.http.post<any>(this.apiURL, phong);
+  addPhong(phong: PhongChieu): Observable<PhongChieu> {
+    return this.http.post<PhongChieu>(this.apiURL, phong);
   }
 
   // Update an existing room
-  updatePhong(id: number, phong: any): Observable<any> {
+  updatePhong(id: number, phong: PhongChieu): Observable<PhongChieu> {
     const url = `${this.apiURL}/${id}`;
-    return this.http.put<any>(url, phong);
+    return this.http.put<PhongChieu>(url, phong);
   }
 
   // Delete a room

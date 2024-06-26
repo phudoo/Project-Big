@@ -67,8 +67,13 @@ export class ListNguoiDungComponent implements OnInit {
     if (this.editingNguoiDung) {
       this.nguoiDungService.updateNguoiDung(this.newNguoiDung.NguoiDungID, this.newNguoiDung).subscribe(
         response => {
+          const index = this.nguoiDungs.findIndex(u => u.NguoiDungID === this.newNguoiDung.NguoiDungID);
+          if (index !== -1) {
+            this.nguoiDungs[index] = response;
+          }
           this.getAllNguoiDungs(); // Re-fetch data
           this.toggleForm();
+          this.resetForm();
         },
         error => {
           console.error('Error updating user', error);

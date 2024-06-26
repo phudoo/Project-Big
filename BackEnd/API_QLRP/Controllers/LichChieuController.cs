@@ -23,14 +23,20 @@ namespace API_QLRP.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<LichChieu>>> GetLichChieus()
         {
-            return await _context.LichChieus.ToListAsync();
+            return await _context.LichChieus
+                .Include(l => l.Phim)
+                .Include(l => l.PhongChieu)
+                .ToListAsync();
         }
 
         // GET: api/LichChieus/5
         [HttpGet("{id}")]
         public async Task<ActionResult<LichChieu>> GetLichChieu(int id)
         {
-            var lichChieu = await _context.LichChieus.FindAsync(id);
+            var lichChieu = await _context.LichChieus
+                .Include(l => l.Phim)
+                .Include(l => l.PhongChieu)
+                .FirstOrDefaultAsync(l => l.LichChieuID == id);
 
             if (lichChieu == null)
             {
@@ -40,15 +46,22 @@ namespace API_QLRP.Controllers
             return lichChieu;
         }
 
-        // POST: api/LichChieus
         [HttpPost]
         public async Task<ActionResult<LichChieu>> PostLichChieu(LichChieu lichChieu)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             _context.LichChieus.Add(lichChieu);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetLichChieu", new { id = lichChieu.LichChieuID }, lichChieu);
         }
+
+
+
 
         // PUT: api/LichChieus/5
         [HttpPut("{id}")]

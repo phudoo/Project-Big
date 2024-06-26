@@ -37,7 +37,7 @@ export class LoginComponent {
       this.authService.login(tenNguoiDung, matKhau).subscribe(
         response => {
           if (response.Role === 'Admin') {
-            this.router.navigate(['list-nguoidung']);
+            this.router.navigate(['admin-ve']);
           } else {
             this.router.navigate(['listphim']);
           }

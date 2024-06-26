@@ -1,13 +1,12 @@
 export interface Phim {
-    phimID: number;
-    tieuDe: string;
-    theLoai: string;
-    thoiLuong: number;
-    ngayKhoiChieu: Date;
-    moTa: string;
-    daoDien: string;
-    danhGia: number;
-    posterURL: string;
-    trailerURL: string;
-  }
-  
+  PhimID: number;
+  TieuDe: string;
+  TheLoai: string;
+  ThoiLuong: number;
+  NgayKhoiChieu: Date;
+  MoTa: string;
+  DaoDien: string;
+  DanhGia: number;
+  PosterURL: string;
+  TrailerURL: string;
+}

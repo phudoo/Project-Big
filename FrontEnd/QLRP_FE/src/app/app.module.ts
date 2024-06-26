@@ -22,6 +22,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ManagerComponent } from './Component/admin/manager/manager.component';
 import { PhimDetailComponent } from './Component/phim-detail/phim-detail.component';
 import { ListNguoiDungComponent } from './Component/admin/nguoidung/list-nguoidung/list-nguoidung.component';
+import { AdminPhimComponent } from './Component/admin/admin-phim/admin-phim.component';
+import { AdminLichchieuComponent } from './Component/admin/admin-lichchieu/admin-lichchieu.component';
+import { AdminPhongchieuComponent } from './Component/admin/admin-phongchieu/admin-phongchieu.component';
+import { AdminVeComponent } from './Component/admin/admin-ve/admin-ve.component';
+import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +46,12 @@ import { ListNguoiDungComponent } from './Component/admin/nguoidung/list-nguoidu
     CreatePhimComponent,
     ManagerComponent,
     PhimDetailComponent,
-    ListNguoiDungComponent
+    ListNguoiDungComponent,
+    AdminPhimComponent,
+    AdminLichchieuComponent,
+    AdminPhongchieuComponent,
+    AdminVeComponent,
+    AdminGheComponent
   ],
   imports: [
     BrowserModule,
