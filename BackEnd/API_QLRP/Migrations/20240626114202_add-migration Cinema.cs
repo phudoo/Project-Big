@@ -6,11 +6,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace API_QLRP.Migrations
 {
     /// <inheritdoc />
-    public partial class Cinema : Migration
+    public partial class addmigrationCinema : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "DoanhThus",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Date = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    TicketsSold = table.Column<int>(type: "int", nullable: false),
+                    TotalRevenue = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DoanhThus", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Ghes",
                 columns: table => new
@@ -113,6 +128,9 @@ namespace API_QLRP.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "DoanhThus");
+
             migrationBuilder.DropTable(
                 name: "Ghes");
 

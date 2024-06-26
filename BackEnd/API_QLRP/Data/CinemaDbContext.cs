@@ -13,8 +13,6 @@ namespace API_QLRP.Data
         public DbSet<LichChieu> LichChieus { get; set; }
         public DbSet<Ghe> Ghes { get; set; }
         public DbSet<Ve> Ves { get; set; }
-
-      
-
+        public DbSet<DoanhThu> DoanhThus { get; set; } 
     }
 }

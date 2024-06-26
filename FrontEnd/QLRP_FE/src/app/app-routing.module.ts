@@ -16,6 +16,7 @@ import { AdminLichChieuComponent } from './Component/admin/admin-lichchieu/admin
 import { AdminVeComponent } from './Component/admin/admin-ve/admin-ve.component';
 import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.component';
 import { ListXuatChieuComponent } from './Component/list-xuat-chieu/list-xuat-chieu.component';
+import { AdminDoanhThuComponent } from './Component/admin/admin-doanhthu/admin-doanhthu.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'admin-lichchieu', component: AdminLichChieuComponent },
   { path: 'admin-ve', component: AdminVeComponent },
   { path: 'admin-ghe', component: AdminGheComponent },
+  { path: 'admin-doanhthu', component: AdminDoanhThuComponent },
   { path: 'manager', component: ManagerComponent, canActivate: [AuthGuard] },
   { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard]},
   { path: 'phim-detail/:id', component: PhimDetailComponent},

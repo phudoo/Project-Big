@@ -27,6 +27,8 @@ import { AdminLichChieuComponent } from './Component/admin/admin-lichchieu/admin
 import { AdminPhongchieuComponent } from './Component/admin/admin-phongchieu/admin-phongchieu.component';
 import { AdminVeComponent } from './Component/admin/admin-ve/admin-ve.component';
 import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.component';
+import { AdminDoanhThuComponent } from './Component/admin/admin-doanhthu/admin-doanhthu.component';
+import { DoanhThuService } from './service/doanh-thu.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +53,8 @@ import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.compone
     AdminLichChieuComponent,
     AdminPhongchieuComponent,
     AdminVeComponent,
-    AdminGheComponent
+    AdminGheComponent,
+    AdminDoanhThuComponent
   ],
   imports: [
     BrowserModule,
@@ -63,7 +66,7 @@ import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.compone
   providers: [
     provideHttpClient(
       withFetch() // Kích hoạt `fetch` API
-    )
+    ), DoanhThuService
   ],
   bootstrap: [AppComponent]
 })

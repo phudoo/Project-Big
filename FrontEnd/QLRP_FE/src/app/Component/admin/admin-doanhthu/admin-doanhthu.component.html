@@ -1,0 +1,23 @@
+<!-- src/app/components/admin-doanhthu/admin-doanhthu.component.html -->
+<div class="container">
+    <h2 class="text-center mt-4">Danh sách Doanh Thu hàng ngày</h2>
+    <button class="btn btn-primary mb-4" (click)="exportToExcel()">Xuất Báo Cáo</button>
+  
+    <table class="table table-striped mt-4">
+      <thead>
+        <tr>
+          <th>Ngày</th>
+          <th>Số lượng vé bán</th>
+          <th>Tổng doanh thu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let doanhThu of doanhThus">
+          <td>{{ doanhThu.Date | date }}</td>
+          <td>{{ doanhThu.TicketsSold }}</td>
+          <td>{{ doanhThu.TotalRevenue | currency }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
