@@ -15,6 +15,7 @@ import { AdminPhongchieuComponent } from './Component/admin/admin-phongchieu/adm
 import { AdminLichchieuComponent } from './Component/admin/admin-lichchieu/admin-lichchieu.component';
 import { AdminVeComponent } from './Component/admin/admin-ve/admin-ve.component';
 import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.component';
+import { ListXuatChieuComponent } from './Component/list-xuat-chieu/list-xuat-chieu.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -31,7 +32,9 @@ const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'listphim', component: ListPhimComponent},
   { path: '', component:ListPhongChieuComponent},
-  { path: 'create-phim', component: CreatePhimComponent }
+  { path: 'create-phim', component: CreatePhimComponent },
+  { path: 'Suat-lich-chieu', component: ListXuatChieuComponent },
+ 
 ];
 
 @NgModule({
