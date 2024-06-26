@@ -12,7 +12,7 @@ import { PhimDetailComponent } from './Component/phim-detail/phim-detail.compone
 import { ListNguoiDungComponent } from './Component/admin/nguoidung/list-nguoidung/list-nguoidung.component';
 import { AdminPhimComponent } from './Component/admin/admin-phim/admin-phim.component';
 import { AdminPhongchieuComponent } from './Component/admin/admin-phongchieu/admin-phongchieu.component';
-import { AdminLichchieuComponent } from './Component/admin/admin-lichchieu/admin-lichchieu.component';
+import { AdminLichChieuComponent } from './Component/admin/admin-lichchieu/admin-lichchieu.component';
 import { AdminVeComponent } from './Component/admin/admin-ve/admin-ve.component';
 import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.component';
 import { ListXuatChieuComponent } from './Component/list-xuat-chieu/list-xuat-chieu.component';
@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'list-nguoidung', component: ListNguoiDungComponent },
   { path: 'admin-phim', component: AdminPhimComponent },
   { path: 'admin-phongchieu', component: AdminPhongchieuComponent },
-  { path: 'admin-lichchieu', component: AdminLichchieuComponent },
+  { path: 'admin-lichchieu', component: AdminLichChieuComponent },
   { path: 'admin-ve', component: AdminVeComponent },
   { path: 'admin-ghe', component: AdminGheComponent },
   { path: 'manager', component: ManagerComponent, canActivate: [AuthGuard] },

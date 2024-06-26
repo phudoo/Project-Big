@@ -16,19 +16,23 @@ export class LichchieuService {
 
   constructor(private http: HttpClient) {}
 
-  getLich(): Observable<any> {
-    return this.http.get<any>(this.apiURL);
+  // Get all showtimes
+  getLich(): Observable<LichChieu[]> {
+    return this.http.get<LichChieu[]>(this.apiURL);
   }
 
-  addLich(lichChieu: LichChieu): Observable<any> {
-    return this.http.post<any>(this.apiURL, JSON.stringify(lichChieu), this.httpOptions);
+  // Add a new showtime
+  addLich(lichChieu: LichChieu): Observable<LichChieu> {
+    return this.http.post<LichChieu>(this.apiURL, lichChieu, this.httpOptions);
   }
 
-  updateLich(id: number, lichChieu: LichChieu): Observable<any> {
+  // Update an existing showtime
+  updateLich(id: number, lichChieu: LichChieu): Observable<LichChieu> {
     const url = `${this.apiURL}/${id}`;
-    return this.http.put<any>(url, JSON.stringify(lichChieu), this.httpOptions);
+    return this.http.put<LichChieu>(url, lichChieu, this.httpOptions);
   }
 
+  // Delete a showtime
   deleteLich(id: number): Observable<any> {
     const url = `${this.apiURL}/${id}`;
     return this.http.delete<any>(url, this.httpOptions);

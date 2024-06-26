@@ -11,13 +11,14 @@ import { PhongChieu } from '../../../Models/Phongchieu';
   templateUrl: './admin-lichchieu.component.html',
   styleUrls: ['./admin-lichchieu.component.css']
 })
-export class AdminLichchieuComponent implements OnInit {
+export class AdminLichChieuComponent implements OnInit {
   lichChieus: LichChieu[] = [];
   phims: Phim[] = [];
   phongChieus: PhongChieu[] = [];
   showForm = false;
   editingLichChieu: LichChieu | null = null;
   newLichChieu: LichChieu = {
+    LichChieuID: 0,
     PhimID: 0,
     PhongChieuID: 0,
     ThoiGianChieu: new Date()
@@ -26,8 +27,8 @@ export class AdminLichchieuComponent implements OnInit {
   constructor(
     private lichChieuService: LichchieuService,
     private phimService: PhimService,
-    private phongService: PhongService
-  ) {}
+    private phongChieuService: PhongService
+  ) { }
 
   ngOnInit(): void {
     this.getAllLichChieus();
@@ -37,38 +38,45 @@ export class AdminLichchieuComponent implements OnInit {
 
   getAllLichChieus(): void {
     this.lichChieuService.getLich().subscribe(
-      data => {
-        this.lichChieus = data.map((item: LichChieu) => ({
-          ...item,
-          ThoiGianChieu: new Date(item.ThoiGianChieu) // Convert to Date object
-        }));
+      (data: LichChieu[]) => {
+        this.lichChieus = data;
       },
-      error => {
-        console.error('Error fetching schedules', error);
+      (error: any) => {
+        console.error('Error fetching LichChieu data', error);
       }
     );
   }
 
   getAllPhims(): void {
     this.phimService.getPhim().subscribe(
-      data => {
+      (data: Phim[]) => {
         this.phims = data;
       },
-      error => {
-        console.error('Error fetching movies', error);
+      (error: any) => {
+        console.error('Error fetching Phim data', error);
       }
     );
   }
 
   getAllPhongChieus(): void {
-    this.phongService.getPhong().subscribe(
-      data => {
+    this.phongChieuService.getPhong().subscribe(
+      (data: PhongChieu[]) => {
         this.phongChieus = data;
       },
-      error => {
-        console.error('Error fetching rooms', error);
+      (error: any) => {
+        console.error('Error fetching PhongChieu data', error);
       }
     );
+  }
+
+  getPhimTitle(phimID: number): string {
+    const phim = this.phims.find(p => p.PhimID === phimID);
+    return phim ? phim.TieuDe : 'Unknown';
+  }
+
+  getPhongChieuNumber(phongChieuID: number): string {
+    const phongChieu = this.phongChieus.find(p => p.PhongChieuID === phongChieuID);
+    return phongChieu ? phongChieu.SoPhong.toString() : 'Unknown';
   }
 
   toggleForm(): void {
@@ -79,46 +87,33 @@ export class AdminLichchieuComponent implements OnInit {
   }
 
   createLichChieu(): void {
-    if (this.newLichChieu.PhimID === 0 || this.newLichChieu.PhongChieuID === 0) {
-      alert('Please select a valid movie and room.');
-      return;
-    }
-    
     this.lichChieuService.addLich(this.newLichChieu).subscribe(
-      response => {
-        this.getAllLichChieus(); // Re-fetch data
+      (response: any) => {
+        this.getAllLichChieus();
         this.toggleForm();
         this.resetForm();
       },
-      error => {
-        console.error('Error creating schedule', error);
-        alert('Error creating schedule: ' + error.message);
+      (error: any) => {
+        console.error('Error creating LichChieu', error);
       }
     );
   }
-  
 
   editLichChieu(lichChieu: LichChieu): void {
     this.editingLichChieu = { ...lichChieu };
-    this.newLichChieu = { 
-      ...lichChieu, 
-      ThoiGianChieu: new Date(lichChieu.ThoiGianChieu) // Convert to Date object
-    };
+    this.newLichChieu = { ...lichChieu };
     this.showForm = true;
   }
 
   updateLichChieu(): void {
     if (this.editingLichChieu) {
-      this.lichChieuService.updateLich(this.newLichChieu.LichChieuID!, {
-        ...this.newLichChieu,
-        ThoiGianChieu: new Date(this.newLichChieu.ThoiGianChieu) // Ensure date is sent correctly
-      }).subscribe(
-        response => {
-          this.getAllLichChieus(); // Re-fetch data
+      this.lichChieuService.updateLich(this.newLichChieu.LichChieuID, this.newLichChieu).subscribe(
+        (response: any) => {
+          this.getAllLichChieus();
           this.toggleForm();
         },
-        error => {
-          console.error('Error updating schedule', error);
+        (error: any) => {
+          console.error('Error updating LichChieu', error);
         }
       );
     }
@@ -128,10 +123,10 @@ export class AdminLichchieuComponent implements OnInit {
     if (confirm('Bạn có chắc chắn muốn xóa lịch chiếu này?')) {
       this.lichChieuService.deleteLich(id).subscribe(
         () => {
-          this.lichChieus = this.lichChieus.filter(lc => lc.LichChieuID !== id);
+          this.lichChieus = this.lichChieus.filter(u => u.LichChieuID !== id);
         },
-        error => {
-          console.error('Error deleting schedule', error);
+        (error: any) => {
+          console.error('Error deleting LichChieu', error);
         }
       );
     }
@@ -139,6 +134,7 @@ export class AdminLichchieuComponent implements OnInit {
 
   resetForm(): void {
     this.newLichChieu = {
+      LichChieuID: 0,
       PhimID: 0,
       PhongChieuID: 0,
       ThoiGianChieu: new Date()
@@ -152,15 +148,5 @@ export class AdminLichchieuComponent implements OnInit {
     } else {
       this.createLichChieu();
     }
-  }
-
-  getPhimTitle(phimID: number): string {
-    const phim = this.phims.find(p => p.PhimID === phimID);
-    return phim ? phim.TieuDe : 'Unknown';
-  }
-
-  getPhongChieuNumber(phongChieuID: number): number {
-    const phongChieu = this.phongChieus.find(p => p.PhongChieuID === phongChieuID);
-    return phongChieu ? phongChieu.SoPhong : 0;
   }
 }

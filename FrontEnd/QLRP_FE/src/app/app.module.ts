@@ -23,7 +23,7 @@ import { ManagerComponent } from './Component/admin/manager/manager.component';
 import { PhimDetailComponent } from './Component/phim-detail/phim-detail.component';
 import { ListNguoiDungComponent } from './Component/admin/nguoidung/list-nguoidung/list-nguoidung.component';
 import { AdminPhimComponent } from './Component/admin/admin-phim/admin-phim.component';
-import { AdminLichchieuComponent } from './Component/admin/admin-lichchieu/admin-lichchieu.component';
+import { AdminLichChieuComponent } from './Component/admin/admin-lichchieu/admin-lichchieu.component';
 import { AdminPhongchieuComponent } from './Component/admin/admin-phongchieu/admin-phongchieu.component';
 import { AdminVeComponent } from './Component/admin/admin-ve/admin-ve.component';
 import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.component';
@@ -48,7 +48,7 @@ import { AdminGheComponent } from './Component/admin/admin-ghe/admin-ghe.compone
     PhimDetailComponent,
     ListNguoiDungComponent,
     AdminPhimComponent,
-    AdminLichchieuComponent,
+    AdminLichChieuComponent,
     AdminPhongchieuComponent,
     AdminVeComponent,
     AdminGheComponent
