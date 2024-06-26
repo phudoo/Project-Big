@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5HreqeyEPM8mF3Z3ImmXviQJIrLIQJvmYk0sNL5ov6wIOb2M5BUx6Ga6TAEmOxJugLuFPKBfjB7PoIx+DkkRfg==",
+  "dgSpecHash": "1VlunztdEReHo4tDsv+BEtHv2KdrGKBUOjEKcEGgneVIMce1wXYDlFj+mJStoilj+KlqrZIkgrY9lYl3nPaVjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\API_QLRP.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\API_QLRP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

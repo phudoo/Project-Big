@@ -1,81 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\",
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\controllers\\ghecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\ghecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\models\\ghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\ghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\models\\phongchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\phongchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\models\\lichchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\lichchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\controllers\\vecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\controllers\\vecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\vecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\controllers\\lichchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\lichchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\controllers\\phongchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\phongchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\controllers\\phimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\phimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:data\\cinemadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Migrations\\20240626103216_Cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240626103216_Cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\controllers\\lichchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\lichchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\ve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\models\\lichchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\lichchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\models\\ghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\ghe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\controllers\\ghecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\ghecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\models\\phongchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\phongchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\controllers\\phongchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\phongchieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\controllers\\phimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\phimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\migrations\\20240625015258_cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:migrations\\20240625015258_cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\api_qlrp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\api_qlrp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:api_qlrp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
@@ -121,19 +121,15 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\WEB-B\u1EF1\\BackEnd\\API_QLRP\\Controllers\\KhachHangController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\new folder (6) - copy\\backend\\api_qlrp\\api_qlrp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|c:\\users\\hp\\desktop\\cccccccccc\\backend\\api_qlrp\\api_qlrp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{1E73201F-B4AF-4AE1-B8CA-094968B277C9}|API_QLRP.csproj|solutionrelative:api_qlrp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -144,119 +140,106 @@
       "DocumentGroups": [
         {
           "DockedHeight": 286,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "20240626103216_Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Migrations\\20240626103216_Cinema.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240626103216_Cinema.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Migrations\\20240626103216_Cinema.cs",
+              "RelativeToolTip": "Migrations\\20240626103216_Cinema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T10:32:16.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LichChieu.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\LichChieu.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\LichChieu.cs",
               "RelativeDocumentMoniker": "Models\\LichChieu.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\LichChieu.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\LichChieu.cs",
               "RelativeToolTip": "Models\\LichChieu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T01:49:03.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "VeController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\VeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VeController.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\VeController.cs",
-              "RelativeToolTip": "Controllers\\VeController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAIBAwGgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:40:40.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Ve.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\Ve.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\Ve.cs",
               "RelativeDocumentMoniker": "Models\\Ve.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\Ve.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\Ve.cs",
               "RelativeToolTip": "Models\\Ve.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T02:43:10.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LichChieuController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\LichChieuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LichChieuController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\LichChieuController.cs",
+              "RelativeToolTip": "Controllers\\LichChieuController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAmwGcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T02:49:41.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CinemaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Data\\CinemaDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\CinemaDbContext.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Data\\CinemaDbContext.cs",
+              "RelativeToolTip": "Data\\CinemaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:47:40.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VeController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\VeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VeController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\VeController.cs",
+              "RelativeToolTip": "Controllers\\VeController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAswD8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:40:40.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Ghe.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\Ghe.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\Ghe.cs",
               "RelativeDocumentMoniker": "Models\\Ghe.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\Ghe.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\Ghe.cs",
               "RelativeToolTip": "Models\\Ghe.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T02:42:09.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "Models\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T09:01:12.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NguoiDung.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\NguoiDung.cs",
-              "RelativeDocumentMoniker": "Models\\NguoiDung.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\NguoiDung.cs",
-              "RelativeToolTip": "Models\\NguoiDung.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T02:16:23.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Phim.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\Phim.cs",
-              "RelativeDocumentMoniker": "Models\\Phim.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\Phim.cs",
-              "RelativeToolTip": "Models\\Phim.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAqwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:42:41.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PhongChieu.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\PhongChieu.cs",
-              "RelativeDocumentMoniker": "Models\\PhongChieu.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Models\\PhongChieu.cs",
-              "RelativeToolTip": "Models\\PhongChieu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:42:51.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "GheController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\GheController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\GheController.cs",
               "RelativeDocumentMoniker": "Controllers\\GheController.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\GheController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\GheController.cs",
               "RelativeToolTip": "Controllers\\GheController.cs",
               "ViewState": "AQIAAFAAAAAAAAAAAAAIwGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -266,23 +249,59 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LichChieuController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\LichChieuController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LichChieuController.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\LichChieuController.cs",
-              "RelativeToolTip": "Controllers\\LichChieuController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAcwD0AAAAAAAAA",
+              "Title": "PhongChieu.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\PhongChieu.cs",
+              "RelativeDocumentMoniker": "Models\\PhongChieu.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\PhongChieu.cs",
+              "RelativeToolTip": "Models\\PhongChieu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T02:49:41.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T02:42:51.417Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Phim.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\Phim.cs",
+              "RelativeDocumentMoniker": "Models\\Phim.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\Phim.cs",
+              "RelativeToolTip": "Models\\Phim.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T02:42:41.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "Models\\NguoiDung.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "Models\\NguoiDung.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T02:16:23.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Models\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:01:12.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PhongChieuController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\PhongChieuController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\PhongChieuController.cs",
               "RelativeDocumentMoniker": "Controllers\\PhongChieuController.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\PhongChieuController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\PhongChieuController.cs",
               "RelativeToolTip": "Controllers\\PhongChieuController.cs",
               "ViewState": "AQIAAFUAAAAAAAAAAAAcwGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,11 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PhimController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\PhimController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\PhimController.cs",
               "RelativeDocumentMoniker": "Controllers\\PhimController.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\PhimController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\PhimController.cs",
               "RelativeToolTip": "Controllers\\PhimController.cs",
               "ViewState": "AQIAAFIAAAAAAAAAAAAiwGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -302,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "NguoiDungController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\NguoiDungController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "Controllers\\NguoiDungController.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\NguoiDungController.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Controllers\\NguoiDungController.cs",
               "RelativeToolTip": "Controllers\\NguoiDungController.cs",
               "ViewState": "AQIAAGQAAAAAAAAAAAAIwHwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -314,23 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CinemaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Data\\CinemaDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\CinemaDbContext.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Data\\CinemaDbContext.cs",
-              "RelativeToolTip": "Data\\CinemaDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T02:47:40.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -338,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAkwB4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -350,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -362,23 +369,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20240625015258_Cinema.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Migrations\\20240625015258_Cinema.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240625015258_Cinema.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Migrations\\20240625015258_Cinema.cs",
-              "RelativeToolTip": "Migrations\\20240625015258_Cinema.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwAgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T01:52:58.161Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
               "Title": "API_QLRP.http",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\API_QLRP.http",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\API_QLRP.http",
               "RelativeDocumentMoniker": "API_QLRP.http",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\API_QLRP.http",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\API_QLRP.http",
               "RelativeToolTip": "API_QLRP.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -388,9 +383,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -517,25 +512,13 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\WeatherForecast.cs",
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T03:59:35.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T03:21:26.31Z"
             },
             {
               "$type": "Document",
@@ -559,11 +542,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "API_QLRP.csproj",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\API_QLRP.csproj",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\API_QLRP.csproj",
               "RelativeDocumentMoniker": "API_QLRP.csproj",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\New folder (6) - Copy\\BackEnd\\API_QLRP\\API_QLRP.csproj",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\cccccccccc\\BackEnd\\API_QLRP\\API_QLRP.csproj",
               "RelativeToolTip": "API_QLRP.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

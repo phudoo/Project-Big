@@ -1,19 +1,16 @@
-﻿using API_QLRP.Models;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class LichChieu
+namespace API_QLRP.Models
 {
-    [Key]
-    public int LichChieuID { get; set; }
+    public class LichChieu
+    {
+        [Key]
+        public int LichChieuID { get; set; }
 
-    public int PhimID { get; set; }
-    [ForeignKey("PhimID")]
-    public Phim Phim { get; set; }
+        public int PhimID { get; set; }
 
-    public int PhongChieuID { get; set; }
-    [ForeignKey("PhongChieuID")]
-    public PhongChieu PhongChieu { get; set; }
+        public int PhongChieuID { get; set; }
 
-    public DateTime ThoiGianChieu { get; set; }
+        public DateTime ThoiGianChieu { get; set; }
+    }
 }

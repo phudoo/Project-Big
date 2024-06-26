@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_QLRP.Migrations
 {
     [DbContext(typeof(CinemaDbContext))]
-    [Migration("20240625015258_Cinema")]
+    [Migration("20240626103216_Cinema")]
     partial class Cinema
     {
         /// <inheritdoc />
@@ -46,8 +46,6 @@ namespace API_QLRP.Migrations
 
                     b.HasKey("GheID");
 
-                    b.HasIndex("PhongChieuID");
-
                     b.ToTable("Ghes");
                 });
 
@@ -69,10 +67,6 @@ namespace API_QLRP.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("LichChieuID");
-
-                    b.HasIndex("PhimID");
-
-                    b.HasIndex("PhongChieuID");
 
                     b.ToTable("LichChieus");
                 });
@@ -196,70 +190,7 @@ namespace API_QLRP.Migrations
 
                     b.HasKey("VeID");
 
-                    b.HasIndex("GheID");
-
-                    b.HasIndex("LichChieuID");
-
-                    b.HasIndex("NguoiDungID");
-
                     b.ToTable("Ves");
-                });
-
-            modelBuilder.Entity("API_QLRP.Models.Ghe", b =>
-                {
-                    b.HasOne("API_QLRP.Models.PhongChieu", "PhongChieu")
-                        .WithMany()
-                        .HasForeignKey("PhongChieuID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("PhongChieu");
-                });
-
-            modelBuilder.Entity("API_QLRP.Models.LichChieu", b =>
-                {
-                    b.HasOne("API_QLRP.Models.Phim", "Phim")
-                        .WithMany()
-                        .HasForeignKey("PhimID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("API_QLRP.Models.PhongChieu", "PhongChieu")
-                        .WithMany()
-                        .HasForeignKey("PhongChieuID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Phim");
-
-                    b.Navigation("PhongChieu");
-                });
-
-            modelBuilder.Entity("API_QLRP.Models.Ve", b =>
-                {
-                    b.HasOne("API_QLRP.Models.Ghe", "Ghe")
-                        .WithMany()
-                        .HasForeignKey("GheID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("API_QLRP.Models.LichChieu", "LichChieu")
-                        .WithMany()
-                        .HasForeignKey("LichChieuID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("API_QLRP.Models.NguoiDung", "NguoiDung")
-                        .WithMany()
-                        .HasForeignKey("NguoiDungID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Ghe");
-
-                    b.Navigation("LichChieu");
-
-                    b.Navigation("NguoiDung");
                 });
 #pragma warning restore 612, 618
         }
