@@ -1,19 +1,138 @@
-<h2> {{title}}</h2>
-<table>
-    <thead>
-        <tr> 
-            <th>Lịch Chiếu</th>
-            <th>Phim Id </th>
-            <th>Phong Chieu </th>
-        
-        </tr>
-    </thead>
-    <tbody> 
-        <tr *ngFor="let s of LichChieu">
-            <td>{{s.LichChieuID}}</td>
-            <td> {{s.PhimID}}</td>
-            <td>  {{s.Phim}}</td>
-            <td>{{s.PhongChieuID}}</td>
-        </tr>
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333333;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e9e9e9;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin-right: 8px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .btn-secondary {
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .btn-primary:hover, .btn-secondary:hover {
+            opacity: 0.8;
+        }
+
+        .button-group {
+            text-align: center;
+        }
+    </style>
+    <title>{{title}}</title>
+</head>
+<body>
+    <h2>{{title}}</h2>
+    <table>
+        <caption>Lịch Chiếu</caption>
+        <thead>
+            <tr> 
+                <th>Lịch Chiếu</th>
+                <th>Phim ID</th>
+                <th>Phòng Chiếu</th>
+                <th>Thao tác</th> <!-- Added a header for action buttons -->
+            </tr>
+        </thead>
+        <tbody> 
+            <!-- Assuming LichChieu is an array of objects with LichChieuID, PhimID, and PhongChieuID -->
+            <tr *ngFor="let s of LichChieu">
+                <td>{{s.LichChieuID}}</td>
+                <td>{{s.PhimID}}</td>
+                <td>{{s.PhongChieuID}}</td>
+                <td>
+                    <div class="button-group">
+                        <button [routerLink]="['/datve', s.PhimID]" class="btn-primary">Đặt vé</button>
+                        <a [routerLink]="['/phim-detail', s.PhimID]" class="btn-secondary">Xem chi tiết</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Danh Sách Phim</caption>
+        <thead>
+            <tr> 
+                <th>Tên Phim</th>
+                <th>Phim ID</th>
+                <th>Thể Loại</th>
+                <th>Thao tác</th> <!-- Added a header for action buttons -->
+            </tr>
+        </thead>
+        <tbody> 
+            <!-- Assuming Phim is an array of objects with TieuDe, PhimID, and TheLoai -->
+            <tr *ngFor="let o of Phim">
+                <td>{{o.TieuDe}}</td>
+                <td>{{o.PhimID}}</td>
+                <td>{{o.TheLoai}}</td>
+                <td>
+                    <div class="button-group">
+                        <button [routerLink]="['/datve', o.PhimID]" class="btn-primary">Đặt vé</button>
+                        <a [routerLink]="['/phim-detail', o.PhimID]" class="btn-secondary">Xem chi tiết</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

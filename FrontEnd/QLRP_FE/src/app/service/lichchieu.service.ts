@@ -20,6 +20,7 @@ export class LichchieuService {
   getLich(): Observable<LichChieu[]> {
     return this.http.get<LichChieu[]>(this.apiURL);
   }
+  
 
   // Add a new showtime
   addLich(lichChieu: LichChieu): Observable<LichChieu> {

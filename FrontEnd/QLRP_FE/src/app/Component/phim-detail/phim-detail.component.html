@@ -1,4 +1,3 @@
-
 <div class="movie-details-container" *ngIf="phim">
     <div class="movie-details">
         <img [src]="phim.PosterURL" alt="Poster" class="movie-details__poster">
@@ -13,7 +12,7 @@
 
             <div class="button-container">
                 <button class="btn-book-ticket">Đặt vé</button>
-                <button class="btn-back-to-list" >Quay về danh sách phim</button>
+                <button class="btn-back-to-list" [routerLink]="['/Suat-lich-chieu']" class="btn-secondary">Quay về danh sách phim</button>
             </div>
         </div>
     </div>
