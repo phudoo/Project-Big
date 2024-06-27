@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PhimService } from '../../service/phim.service'; // Adjust path as per your service location
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-phim-detail',
   templateUrl: './phim-detail.component.html',
@@ -13,8 +13,9 @@ export class PhimDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private phimService: PhimService // Inject PhimService for fetching data
-  ) { }
+    private phimService: PhimService,
+    private router: Router) {}
+
 
   ngOnInit(): void {
     // Extract 'id' parameter from the current route
@@ -33,5 +34,13 @@ export class PhimDetailComponent implements OnInit {
     } else {
       console.error('No ID parameter found in route');
     }
+
+  }
+  
+  onLogout() {
+    // Add your logout logic here (e.g., removing user token, clearing session storage)
+    console.log('User logged out');
+    // Redirect to the login page
+    this.router.navigate(['/login']);
   }
 }

@@ -1,3 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản Lý Rạp Phim</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f9;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .navbar-brand {
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #ffffff !important;
+    }
+    .nav-link {
+      font-size: 1.1rem;
+      color: #ffffff !important;
+    }
+    .nav-link:hover {
+      color: #cccccc !important;
+    }
+    .form-control {
+      width: 300px;
+    }
+    .btn-outline-success {
+      width: 80px;
+    }
+    .btn-primary {
+      margin-left: 10px;
+    }
+    .nav-item .form-control {
+      margin-right: 10px;
+    }
+    .btn-outline-success:hover {
+      color: #ffffff;
+      background-color: #28a745;
+      border-color: #28a745;
+    }
+    .btn-primary:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+    .nav-item.active .nav-link {
+      color: #ffc107 !important;
+    }
+    .btn-logout {
+      color: #ffffff;
+      background-color: #0062cc;
+      border-color: #dc3545;
+    }
+    .btn-logout:hover {
+      background-color: #0062cc;
+      border-color: #bd2130; 
+    }
+    .btn-search {
+      background-color: #007bff;
+      color: #ffffff;
+      border-color: #007bff;
+      transition: background-color 0.3s ease;
+    }
+    .btn-search:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Quản Lý Rạp Phim</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Trang Chủ <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/Suat-lich-chieu">Lịch Chiếu</a>
+        </li>
+   
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <button class="btn btn-logout my-2 my-sm-0" type="button" (click)="onLogout()">Đăng Xuất</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+
 <div class="movie-details-container" *ngIf="phim">
     <div class="movie-details">
         <img [src]="phim.PosterURL" alt="Poster" class="movie-details__poster">
@@ -12,7 +114,7 @@
 
             <div class="button-container">
                 <button class="btn-book-ticket">Đặt vé</button>
-                <button class="btn-back-to-list" [routerLink]="['/Suat-lich-chieu']" class="btn-secondary">Quay về danh sách phim</button>
+                <button class="btn-back-to-list" [routerLink]="['/listphim']" class="btn-secondary">Quay về trang chủ</button>
             </div>
         </div>
     </div>
@@ -24,3 +126,10 @@
     </div>
 </div>
 <app-footer></app-footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
