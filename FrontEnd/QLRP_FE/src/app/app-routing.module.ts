@@ -19,13 +19,20 @@ import { AdminDoanhThuComponent } from './Component/admin/admin-doanhthu/admin-d
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'dangky', component:DangKyComponent},
-  { path: 'list-nguoidung', component: ListNguoiDungComponent },
-  { path: 'admin-phim', component: AdminPhimComponent },
-  { path: 'admin-phongchieu', component: AdminPhongchieuComponent },
-  { path: 'admin-lichchieu', component: AdminLichChieuComponent },
-  { path: 'admin-ve', component: AdminVeComponent },
-  { path: 'admin-ghe', component: AdminGheComponent },
-  { path: 'admin-doanhthu', component: AdminDoanhThuComponent },
+  {
+    path: '',
+    component: ManagerComponent,
+    children: [
+      { path: 'list-nguoidung', component: ListNguoiDungComponent },
+      { path: 'admin-ve', component: AdminVeComponent },
+      { path: 'admin-phongchieu', component: AdminPhongchieuComponent },
+      { path: 'admin-phim', component: AdminPhimComponent },
+      { path: 'admin-lichchieu', component: AdminLichChieuComponent },
+      { path: 'admin-ghe', component: AdminGheComponent },
+      { path: 'admin-doanhthu', component: AdminDoanhThuComponent },
+      { path: '', redirectTo: '/login', pathMatch: 'full' }
+    ]
+  },
   { path: 'manager', component: ManagerComponent, canActivate: [AuthGuard] },
   { path: 'phim-detail/:id', component: PhimDetailComponent},
   { path: '', redirectTo: '/login', pathMatch: 'full' },

@@ -24,10 +24,11 @@ export class ListPhimComponent implements OnInit {
 
   loadPhim() {
     this.phims.getPhim().subscribe(res => {
-      this.Phim = res;
-      console.log(this.Phim);
+      this.Phim = res; // Gán dữ liệu phim từ phản hồi API vào biến Phim của component
+      console.log(this.Phim); // Log dữ liệu phim ra console cho mục đích debug (có thể xóa đi sau khi hoàn thành)
     });
   }
+  
 
   // Pagination methods
   nextPage() {

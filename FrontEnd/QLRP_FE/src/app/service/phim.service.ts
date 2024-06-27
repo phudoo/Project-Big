@@ -8,11 +8,12 @@ import { Observable } from 'rxjs';
 export class PhimService {
   private apiURL = 'http://localhost:5100/api/Phims';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {} 
+  /* constructor này dùng để inject HttpClient vào service PhimService, 
+  cho phép PhimService có thể sử dụng HttpClient để thực hiện các yêu cầu HTTP tới API backend  */
 
-  // Get all movies
-  getPhim(): Observable<any> {
-    return this.http.get<any>(this.apiURL);
+  getPhim(): Observable<any> {  /*Nó cho phép các component của ứng dụng có thể lấy danh sách các bộ phim từ API để hiển thị hoặc xử lý tiếp. */
+    return this.http.get<any>(this.apiURL); /*gửi yêu cầu HTTP GET tới một API backend (this.apiURL) */
   }
   getPhimById(id: number): Observable<any> {
     const url = `${this.apiURL}/${id}`;
