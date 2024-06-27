@@ -1,5 +1,71 @@
 [
   {
+    "ContainingType": "API_QLRP.Controllers.DoanhThusController",
+    "Method": "GetDoanhThus",
+    "RelativePath": "api/DoanhThus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_QLRP.Models.DoanhThu, API_QLRP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_QLRP.Controllers.DoanhThusController",
+    "Method": "PostDoanhThu",
+    "RelativePath": "api/DoanhThus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doanhThu",
+        "Type": "API_QLRP.Models.DoanhThu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_QLRP.Models.DoanhThu",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_QLRP.Controllers.DoanhThusController",
+    "Method": "GetDailyRevenue",
+    "RelativePath": "api/DoanhThus/daily-revenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_QLRP.Models.DoanhThu, API_QLRP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "API_QLRP.Controllers.GhesController",
     "Method": "GetGhes",
     "RelativePath": "api/Ghes",
@@ -452,6 +518,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API_QLRP.Controllers.PhimsController",
+    "Method": "SearchPhim",
+    "RelativePath": "api/Phims/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TieuDe",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_QLRP.Models.Phim, API_QLRP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "API_QLRP.Controllers.PhongChieusController",
     "Method": "GetPhongChieus",
     "RelativePath": "api/PhongChieus",
@@ -668,25 +760,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API_QLRP.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_QLRP.WeatherForecast, API_QLRP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]

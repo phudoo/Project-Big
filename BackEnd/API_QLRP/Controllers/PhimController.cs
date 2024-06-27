@@ -96,6 +96,27 @@ namespace API_QLRP.Controllers
             return NoContent();
         }
 
+        // GET: api/Phims/search
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<Phim>>> SearchPhim(string TieuDe)
+        {
+            if (string.IsNullOrEmpty(TieuDe))
+            {
+                return BadRequest("Tiêu đề phim không được để trống.");
+            }
+
+            var phims = await _context.Phims
+                .Where(p => p.TieuDe.Contains(TieuDe))
+                .ToListAsync();
+
+            if (!phims.Any())
+            {
+                return NotFound();
+            }
+
+            return phims;
+        }
+
         private bool PhimExists(int id)
         {
             return _context.Phims.Any(e => e.PhimID == id);
