@@ -1,16 +1,41 @@
-<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-  <h1> Đăng Ký</h1>
-    <div>
-      <label for="tenNguoiDung">Tên người dùng:</label>
-      <input type="text" id="tenNguoiDung" formControlName="tenNguoiDung" required>
+<div class="outer">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8">
+        <div class="panel border bg-white">
+          <div class="panel-heading">
+            <h3 class="pt-3 font-weight-bold text-center">Đăng Ký</h3>
+          </div>
+          <div class="panel-body p-3">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <input type="text" id="tenNguoiDung" formControlName="TenNguoiDung" class="form-control" placeholder="Tên người dùng" required>
+                  <small *ngIf="registerForm.controls['TenNguoiDung'].dirty && registerForm.hasError('required', 'TenNguoiDung')" class="text-danger">*Tên người dùng là bắt buộc*</small>
+                </div>
+              </div>
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <input type="email" id="email" formControlName="Email" class="form-control" placeholder="Email" required>
+                  <small *ngIf="registerForm.controls['Email'].dirty && registerForm.hasError('required', 'Email')" class="text-danger">*Email là bắt buộc*</small>
+                </div>
+              </div>
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <input type="password" id="matKhau" formControlName="MatKhau" class="form-control" placeholder="Mật khẩu" required>
+                  <small *ngIf="registerForm.controls['MatKhau'].dirty && registerForm.hasError('required', 'MatKhau')" class="text-danger">*Mật khẩu là bắt buộc*</small>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block mt-4">Đăng ký</button>
+              <div class="text-center pt-4 text-muted">
+                Bạn đã có tài khoản? <a id="forgot" href="#" routerLink="/login">Đăng nhập ngay</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    <div>
-      <label for="email">Email:</label>
-      <input type="email" id="email" formControlName="email" required>
-    </div>
-    <div>
-      <label for="matKhau">Mật khẩu:</label>
-      <input type="password" id="matKhau" formControlName="matKhau" required>
-    </div>
-    <button type="submit">Đăng ký</button>
-  </form>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

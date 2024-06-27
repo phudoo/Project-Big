@@ -1,72 +1,122 @@
-/* Body background and spacing */
-body {
-    background-color: #f0f0f0; /* Light gray background */
-    padding-top: 50px;
-  }
-  
-  /* Form styling */
-  form {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #ffffff; /* White background */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Label styling */
-  form label {
-    display: block;
-    margin-bottom: 8px;
-    color: #333333; /* Dark gray color */
-  }
-  
-  /* Input field styling */
-  form input[type="text"],
-  form input[type="email"],
-  form input[type="password"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ced4da; /* Light gray border */
-    border-radius: 4px;
-    margin-bottom: 16px;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
-  
-  form input[type="text"]:focus,
-  form input[type="email"]:focus,
-  form input[type="password"]:focus {
-    border-color: #87ceeb; /* Light blue color on focus */
-    box-shadow: 0 0 0 0.2rem rgba(135, 206, 235, 0.25); /* Light blue shadow on focus */
-  }
-  
-  /* Button styling */
-  form button {
-    background-color: #87ceeb; /* Light blue color */
-    color: #ffffff; /* White text color */
-    border: none;
-    padding: 12px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  form button:hover {
-    background-color: #6ca6cd; /* Slightly darker blue on hover */
-  }
-  
-  /* Error message styling */
-  .text-danger {
-    font-size: 0.875rem;
-    color: #dc3545; /* Red color for errors */
-  }
-  
-  /* Link styling */
-  .text-muted a {
-    color: #ff69b4; /* Pink color */
-  }
-  
-  .text-muted a:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-  
+.outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://assets.nflxext.com/ffe/siteui/vlv3/1fd8c6d0-20db-4667-860e-dd1ad7353ac0/8e1a2c2f-8792-4a82-a325-a541d476f552/VN-en-20240624-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.panel-heading {
+  margin-bottom: 20px;
+}
+
+.panel-heading h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.input-field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-field .fa {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.input-field input {
+  padding-left: 35px;
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+
+input.form-control:focus {
+  border-color: #e50914;
+  box-shadow: none;
+}
+
+button.bg-white {
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+
+button.bg-white .fa {
+  font-size: 1rem;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #aaa !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+button.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button.btn-primary {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+button.btn-primary:hover {
+  background-color: #b00710;
+  border-color: #b00710;
+}
+
+#forgot {
+  cursor: pointer;
+  color: #fff;
+}
+
+#forgot:hover {
+  text-decoration: underline;
+  color: #e50914;
+}
+
+.text-muted a {
+  color: #fff;
+}
+
+.text-muted a:hover {
+  text-decoration: underline;
+  color: #e50914;
+}

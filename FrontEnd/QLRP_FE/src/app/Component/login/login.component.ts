@@ -13,7 +13,7 @@ export class LoginComponent {
   type: string = 'password';
   isText: boolean = false;
   eyeIcon: string = 'fa-eye-slash';
-  errorMessage: string = '';  // Add this line
+  errorMessage: string = '';
 
   constructor(
     private fb: FormBuilder,
@@ -38,13 +38,13 @@ export class LoginComponent {
       this.authService.login(tenNguoiDung, matKhau).subscribe(
         response => {
           if (response.Role === 'Admin') {
-            this.router.navigate(['admin-ve']);
+            this.router.navigate(['manager']);
           } else {
             this.router.navigate(['listphim']);
           }
         },
         error => {
-          this.errorMessage = 'Đăng nhập không thành công. Vui lòng kiểm tra lại tên đăng nhập và mật khẩu.'; // Set the error message
+          this.errorMessage = 'Đăng nhập không thành công. Vui lòng kiểm tra lại tên đăng nhập và mật khẩu.';
         }
       );
     }

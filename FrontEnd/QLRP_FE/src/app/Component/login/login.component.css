@@ -1,101 +1,123 @@
-/* Body background and spacing */
-body {
-    background-color: #f0f0f0; /* Light gray background */
-    padding-top: 50px;
-  }
-  
-  /* Outer container alignment */
-  .outer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  /* Form panel styling */
-  .panel {
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff; /* White background */
-  }
-  
-  /* Panel heading styles */
-  .panel-heading {
-    background-color: #87ceeb; /* Light blue color */
-    color: #333333; /* Dark gray text */
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    padding: 20px 0;
-  }
-  
-  /* Form container inside panel */
-  .panel-body {
-    padding: 20px;
-  }
-  
-  /* Form input fields */
-  .input-field {
-    position: relative;
-  }
-  
-  .input-field input {
-    width: calc(100% - 40px); /* Adjust width for the icon button */
-    padding: 12px;
-    border: 1px solid #ced4da; /* Light gray border */
-    border-radius: 4px;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
-  
-  .input-field input:focus {
-    border-color: #87ceeb; /* Focus color */
-    box-shadow: 0 0 0 0.2rem rgba(135, 206, 235, 0.25); /* Focus shadow */
-  }
-  
-  /* Icon button inside input field */
-  .input-field button {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Error message styling */
-  .text-danger {
-    font-size: 0.875rem;
-  }
-  
-  /* Forgot password link */
-  #forgot {
-    color: #87ceeb; /* Light blue color */
-  }
-  
-  #forgot:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-  
-  /* Sign up link */
-  .text-muted a {
-    color: #ff69b4; /* Pink color */
-  }
-  
-  .text-muted a:hover {
-    text-decoration: underline; /* Underline on hover */
-  }
-  
-  /* Login button */
-  .btn-primary {
-    background-color: #87ceeb; /* Light blue color */
-    border-color: #87ceeb;
-    padding: 12px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-  }
-  
-  .btn-primary:hover {
-    background-color: #6ca6cd; /* Slightly darker blue on hover */
-    border-color: #6ca6cd;
-  }
-  
+/* src/app/components/login/login.component.css */
+.outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://assets.nflxext.com/ffe/siteui/vlv3/1fd8c6d0-20db-4667-860e-dd1ad7353ac0/8e1a2c2f-8792-4a82-a325-a541d476f552/VN-en-20240624-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.panel-heading {
+  margin-bottom: 20px;
+}
+
+.panel-heading h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.input-field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-field .fa {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.input-field input {
+  padding-left: 35px;
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+}
+
+input.form-control:focus {
+  border-color: #e50914;
+  box-shadow: none;
+}
+
+button.bg-white {
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+
+button.bg-white .fa {
+  font-size: 1rem;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #aaa !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+button.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button.btn-primary {
+  background-color: #e50914;
+  border-color: #e50914;
+}
+
+button.btn-primary:hover {
+  background-color: #b00710;
+  border-color: #b00710;
+}
+
+#forgot {
+  cursor: pointer;
+  color: #fff;
+}
+
+#forgot:hover {
+  text-decoration: underline;
+  color: #e50914;
+}
+
+.text-muted a {
+  color: #fff;
+}
+
+.text-muted a:hover {
+  text-decoration: underline;
+  color: #e50914;
+}
