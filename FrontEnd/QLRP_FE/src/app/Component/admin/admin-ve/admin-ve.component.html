@@ -1,68 +1,71 @@
 <div class="container">
-  <h2 class="text-center mt-4">Danh sách vé</h2>
-  <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
-
-  <div *ngIf="showForm">
-      <form (ngSubmit)="saveVe()">
-          <div class="form-group">
-              <label for="NguoiDungID">Người dùng:</label>
-              <select id="NguoiDungID" [(ngModel)]="newVe.NguoiDungID" name="NguoiDungID" class="form-control" required>
-                  <option [ngValue]="0">Select a user</option>
-                  <option *ngFor="let nguoiDung of nguoiDungs" [ngValue]="nguoiDung.NguoiDungID">{{ nguoiDung.TenNguoiDung }}</option>
-              </select>
-          </div>
-          <div class="form-group">
-              <label for="LichChieuID">Lịch chiếu:</label>
-              <select id="LichChieuID" [(ngModel)]="newVe.LichChieuID" name="LichChieuID" class="form-control" required>
-                  <option [ngValue]="0">Select a showtime</option>
-                  <option *ngFor="let lichChieu of lichChieus" [ngValue]="lichChieu.LichChieuID">{{ lichChieu.ThoiGianChieu | date: 'short' }}</option>
-              </select>
-          </div>
-          <div class="form-group">
-              <label for="GheID">Ghế:</label>
-              <select id="GheID" [(ngModel)]="newVe.GheID" name="GheID" class="form-control" required>
-                  <option [ngValue]="0">Select a seat</option>
-                  <option *ngFor="let ghe of ghes" [ngValue]="ghe.GheID">{{ ghe.SoGhe }}</option>
-              </select>
-          </div>
-          <div class="form-group">
-              <label for="ThoiGianMua">Thời gian mua:</label>
-              <input type="datetime-local" id="ThoiGianMua" [(ngModel)]="newVe.ThoiGianMua" name="ThoiGianMua" class="form-control" required>
-          </div>
-          <div class="form-group">
-              <label for="Gia">Giá:</label>
-              <input type="number" id="Gia" [(ngModel)]="newVe.Gia" name="Gia" class="form-control" required>
-          </div>
-          <button type="submit" class="btn btn-success">Lưu</button>
-          <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
-      </form>
+    <h2 class="text-center mt-4">Danh sách vé</h2>
+    <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
+  
+    <div *ngIf="showForm">
+        <form (ngSubmit)="saveVe()">
+            <div class="form-group">
+                <label for="NguoiDungID">Người dùng:</label>
+                <select id="NguoiDungID" [(ngModel)]="newVe.NguoiDungID" name="NguoiDungID" class="form-control" required>
+                    <option [ngValue]="0">Select a user</option>
+                    <option *ngFor="let nguoiDung of nguoiDungs" [ngValue]="nguoiDung.NguoiDungID">{{ nguoiDung.TenNguoiDung }}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="LichChieuID">Lịch chiếu:</label>
+                <select id="LichChieuID" [(ngModel)]="newVe.LichChieuID" name="LichChieuID" class="form-control" required>
+                    <option [ngValue]="0">Select a showtime</option>
+                    <option *ngFor="let lichChieu of lichChieus" [ngValue]="lichChieu.LichChieuID">{{ lichChieu.ThoiGianChieu | date: 'short' }}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="GheID">Ghế:</label>
+                <select id="GheID" [(ngModel)]="newVe.GheID" name="GheID" class="form-control" required>
+                    <option [ngValue]="0">Select a seat</option>
+                    <option *ngFor="let ghe of ghes" [ngValue]="ghe.GheID">{{ ghe.SoGhe }}</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ThoiGianMua">Thời gian mua:</label>
+                <input type="datetime-local" id="ThoiGianMua" [(ngModel)]="newVe.ThoiGianMua" name="ThoiGianMua" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="Gia">Giá:</label>
+                <input type="number" id="Gia" [(ngModel)]="newVe.Gia" name="Gia" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success">Lưu</button>
+            <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
+        </form>
+    </div>
+  
+    <div *ngIf="!showForm">
+        <table class="table table-striped mt-4">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Người dùng</th>
+                    <th>Lịch chiếu</th>
+                    <th>Ghế</th>
+                    <th>Thời gian mua</th>
+                    <th>Giá</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let ve of ves">
+                    <td>{{ ve.VeID }}</td>
+                    <td>{{ getNguoiDungName(ve.NguoiDungID) }}</td>
+                    <td>{{ getThoiGianChieu(ve.LichChieuID) }}</td>
+                    <td>{{ getSoGhe(ve.GheID) }}</td>
+                    <td>{{ ve.ThoiGianMua | date: 'short' }}</td>
+                    <td>{{ ve.Gia | currency }}</td>
+                    <td>
+                        <button class="btn btn-warning" (click)="editVe(ve)">Sửa</button>
+                        <button class="btn btn-danger" (click)="deleteVe(ve.VeID)">Xóa</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
   </div>
-
-  <table class="table table-striped mt-4">
-      <thead>
-          <tr>
-              <th>ID</th>
-              <th>Người dùng</th>
-              <th>Lịch chiếu</th>
-              <th>Ghế</th>
-              <th>Thời gian mua</th>
-              <th>Giá</th>
-              <th>Actions</th>
-          </tr>
-      </thead>
-      <tbody>
-          <tr *ngFor="let ve of ves">
-              <td>{{ ve.VeID }}</td>
-              <td>{{ getNguoiDungName(ve.NguoiDungID) }}</td>
-              <td>{{ getThoiGianChieu(ve.LichChieuID) }}</td>
-              <td>{{ getSoGhe(ve.GheID) }}</td>
-              <td>{{ ve.ThoiGianMua | date: 'short' }}</td>
-              <td>{{ ve.Gia | currency }}</td>
-              <td>
-                  <button class="btn btn-warning" (click)="editVe(ve)">Sửa</button>
-                  <button class="btn btn-danger" (click)="deleteVe(ve.VeID)">Xóa</button>
-              </td>
-          </tr>
-      </tbody>
-  </table>
-</div>
+  

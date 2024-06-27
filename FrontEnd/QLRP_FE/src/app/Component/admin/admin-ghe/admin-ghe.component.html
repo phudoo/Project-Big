@@ -1,3 +1,4 @@
+<!-- src/app/components/admin-ghe/admin-ghe.component.html -->
 <div class="container">
   <h2 class="text-center mt-4">Danh sách ghế</h2>
   <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
@@ -27,27 +28,29 @@
     </form>
   </div>
 
-  <table class="table table-striped mt-4">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Phòng chiếu</th>
-        <th>Số ghế</th>
-        <th>Trạng thái</th>
-        <th>Actions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let ghe of ghes">
-        <td>{{ ghe.GheID }}</td>
-        <td>{{ getPhongChieuNumber(ghe.PhongChieuID) }}</td>
-        <td>{{ ghe.SoGhe }}</td>
-        <td>{{ ghe.TrangThai }}</td>
-        <td>
-          <button class="btn btn-warning" (click)="editGhe(ghe)">Sửa</button>
-          <button class="btn btn-danger" (click)="deleteGhe(ghe.GheID)">Xóa</button>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div *ngIf="!showForm">
+    <table class="table table-striped mt-4">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Phòng chiếu</th>
+          <th>Số ghế</th>
+          <th>Trạng thái</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let ghe of ghes">
+          <td>{{ ghe.GheID }}</td>
+          <td>{{ getPhongChieuNumber(ghe.PhongChieuID) }}</td>
+          <td>{{ ghe.SoGhe }}</td>
+          <td>{{ ghe.TrangThai }}</td>
+          <td>
+            <button class="btn btn-warning" (click)="editGhe(ghe)">Sửa</button>
+            <button class="btn btn-danger" (click)="deleteGhe(ghe.GheID)">Xóa</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>

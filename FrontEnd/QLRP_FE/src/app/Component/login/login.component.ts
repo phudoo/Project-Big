@@ -13,6 +13,7 @@ export class LoginComponent {
   type: string = 'password';
   isText: boolean = false;
   eyeIcon: string = 'fa-eye-slash';
+  errorMessage: string = '';  // Add this line
 
   constructor(
     private fb: FormBuilder,
@@ -43,7 +44,7 @@ export class LoginComponent {
           }
         },
         error => {
-          // Handle login error
+          this.errorMessage = 'Đăng nhập không thành công. Vui lòng kiểm tra lại tên đăng nhập và mật khẩu.'; // Set the error message
         }
       );
     }

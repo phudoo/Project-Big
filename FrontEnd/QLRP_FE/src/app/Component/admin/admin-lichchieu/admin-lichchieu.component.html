@@ -1,55 +1,56 @@
 <!-- src/app/components/admin-lichchieu/admin-lichchieu.component.html -->
 <div class="container">
-    <h2 class="text-center mt-4">Danh sách lịch chiếu</h2>
-    <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
-  
-    <div *ngIf="showForm">
-        <form (ngSubmit)="saveLichChieu()">
-            <div class="form-group">
-              <label for="PhimID">Phim:</label>
-              <select id="PhimID" [(ngModel)]="newLichChieu.PhimID" name="PhimID" class="form-control" required>
-                <option [ngValue]="0">Select a movie</option>
-                <option *ngFor="let phim of phims" [ngValue]="phim.PhimID">{{ phim.TieuDe }}</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="PhongChieuID">Phòng chiếu:</label>
-              <select id="PhongChieuID" [(ngModel)]="newLichChieu.PhongChieuID" name="PhongChieuID" class="form-control" required>
-                <option [ngValue]="0">Select a room</option>
-                <option *ngFor="let phong of phongChieus" [ngValue]="phong.PhongChieuID">{{ phong.SoPhong }}</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="ThoiGianChieu">Thời gian chiếu:</label>
-              <input type="datetime-local" id="ThoiGianChieu" [(ngModel)]="newLichChieu.ThoiGianChieu" name="ThoiGianChieu" class="form-control" required>
-            </div>
-            <button type="submit" class="btn btn-success">Lưu</button>
-            <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
-          </form>          
-    </div>
-  
-    <table class="table table-striped mt-4">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Phim</th>
-          <th>Phòng chiếu</th>
-          <th>Thời gian chiếu</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let lichChieu of lichChieus">
-          <td>{{ lichChieu.LichChieuID }}</td>
-          <td>{{ getPhimTitle(lichChieu.PhimID) }}</td>
-          <td>{{ getPhongChieuNumber(lichChieu.PhongChieuID) }}</td>
-          <td>{{ lichChieu.ThoiGianChieu | date: 'shortDate' }}</td>
-          <td>
-            <button class="btn btn-warning" (click)="editLichChieu(lichChieu)">Sửa</button>
-            <button class="btn btn-danger" (click)="deleteLichChieu(lichChieu.LichChieuID!)">Xóa</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+  <h2 class="text-center mt-4">Danh sách lịch chiếu</h2>
+  <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
+
+  <div *ngIf="showForm">
+      <form (ngSubmit)="saveLichChieu()">
+          <div class="form-group">
+            <label for="PhimID">Phim:</label>
+            <select id="PhimID" [(ngModel)]="newLichChieu.PhimID" name="PhimID" class="form-control" required>
+              <option [ngValue]="0">Select a movie</option>
+              <option *ngFor="let phim of phims" [ngValue]="phim.PhimID">{{ phim.TieuDe }}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="PhongChieuID">Phòng chiếu:</label>
+            <select id="PhongChieuID" [(ngModel)]="newLichChieu.PhongChieuID" name="PhongChieuID" class="form-control" required>
+              <option [ngValue]="0">Select a room</option>
+              <option *ngFor="let phong of phongChieus" [ngValue]="phong.PhongChieuID">{{ phong.SoPhong }}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="ThoiGianChieu">Thời gian chiếu:</label>
+            <input type="datetime-local" id="ThoiGianChieu" [(ngModel)]="newLichChieu.ThoiGianChieu" name="ThoiGianChieu" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-success">Lưu</button>
+          <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
+      </form>          
   </div>
-  
+
+  <div *ngIf="!showForm">
+      <table class="table table-striped mt-4">
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Phim</th>
+                  <th>Phòng chiếu</th>
+                  <th>Thời gian chiếu</th>
+                  <th>Actions</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let lichChieu of lichChieus">
+                  <td>{{ lichChieu.LichChieuID }}</td>
+                  <td>{{ getPhimTitle(lichChieu.PhimID) }}</td>
+                  <td>{{ getPhongChieuNumber(lichChieu.PhongChieuID) }}</td>
+                  <td>{{ lichChieu.ThoiGianChieu | date: 'short' }}</td>
+                  <td>
+                      <button class="btn btn-warning" (click)="editLichChieu(lichChieu)">Sửa</button>
+                      <button class="btn btn-danger" (click)="deleteLichChieu(lichChieu.LichChieuID!)">Xóa</button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>

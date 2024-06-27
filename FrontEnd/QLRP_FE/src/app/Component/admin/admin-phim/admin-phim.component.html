@@ -1,85 +1,85 @@
 <div class="container">
-    <h2 class="text-center mt-4">Danh sách phim</h2>
-    <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
-    
-    <div *ngIf="showForm">
+  <h2 class="text-center mt-4">Danh sách phim</h2>
+  <button class="btn btn-primary mb-4" (click)="toggleForm()">Tạo mới</button>
+  
+  <div *ngIf="showForm">
       <form (ngSubmit)="savePhim()">
-        <!-- Form fields for the movie properties -->
-        <div class="form-group">
-          <label for="TieuDe">Tiêu đề:</label>
-          <input type="text" id="TieuDe" [(ngModel)]="newPhim.TieuDe" name="TieuDe" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="TheLoai">Thể loại:</label>
-          <input type="text" id="TheLoai" [(ngModel)]="newPhim.TheLoai" name="TheLoai" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="ThoiLuong">Thời lượng (phút):</label>
-          <input type="number" id="ThoiLuong" [(ngModel)]="newPhim.ThoiLuong" name="ThoiLuong" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="NgayKhoiChieu">Ngày khởi chiếu:</label>
-          <input type="date" id="NgayKhoiChieu" [(ngModel)]="newPhim.NgayKhoiChieu" name="NgayKhoiChieu" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="MoTa">Mô tả:</label>
-          <textarea id="MoTa" [(ngModel)]="newPhim.MoTa" name="MoTa" class="form-control" required></textarea>
-        </div>
-        <div class="form-group">
-          <label for="DaoDien">Đạo diễn:</label>
-          <input type="text" id="DaoDien" [(ngModel)]="newPhim.DaoDien" name="DaoDien" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="DanhGia">Đánh giá:</label>
-          <input type="number" id="DanhGia" [(ngModel)]="newPhim.DanhGia" name="DanhGia" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="PosterURL">Poster URL:</label>
-          <input type="text" id="PosterURL" [(ngModel)]="newPhim.PosterURL" name="PosterURL" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="TrailerURL">Trailer URL:</label>
-          <input type="text" id="TrailerURL" [(ngModel)]="newPhim.TrailerURL" name="TrailerURL" class="form-control" required>
-        </div>
-        <button type="submit" class="btn btn-success">Lưu</button>
-        <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
+          <div class="form-group">
+              <label for="TieuDe">Tiêu đề:</label>
+              <input type="text" id="TieuDe" [(ngModel)]="newPhim.TieuDe" name="TieuDe" class="form-control" required>
+          </div>
+          <div class="form-group">
+              <label for="TheLoai">Thể loại:</label>
+              <input type="text" id="TheLoai" [(ngModel)]="newPhim.TheLoai" name="TheLoai" class="form-control" required>
+          </div>
+          <div class="form-group">
+              <label for="ThoiLuong">Thời lượng (phút):</label>
+              <input type="number" id="ThoiLuong" [(ngModel)]="newPhim.ThoiLuong" name="ThoiLuong" class="form-control" required>
+          </div>
+          <div class="form-group">
+              <label for="NgayKhoiChieu">Ngày khởi chiếu:</label>
+              <input type="date" id="NgayKhoiChieu" [(ngModel)]="newPhim.NgayKhoiChieu" name="NgayKhoiChieu" class="form-control" required>
+          </div>
+          <div class="form-group">
+              <label for="MoTa">Mô tả:</label>
+              <textarea id="MoTa" [(ngModel)]="newPhim.MoTa" name="MoTa" class="form-control" required></textarea>
+          </div>
+          <div class="form-group">
+              <label for="DaoDien">Đạo diễn:</label>
+              <input type="text" id="DaoDien" [(ngModel)]="newPhim.DaoDien" name="DaoDien" class="form-control" required>
+          </div>
+          <div class="form-group">
+              <label for="DanhGia">Đánh giá:</label>
+              <input type="number" id="DanhGia" [(ngModel)]="newPhim.DanhGia" name="DanhGia" class="form-control" required>
+          </div>
+          <div class="form-group">
+              <label for="PosterURL">Poster URL:</label>
+              <input type="text" id="PosterURL" [(ngModel)]="newPhim.PosterURL" name="PosterURL" class="form-control" required>
+          </div>
+          <div class="form-group">
+              <label for="TrailerURL">Trailer URL:</label>
+              <input type="text" id="TrailerURL" [(ngModel)]="newPhim.TrailerURL" name="TrailerURL" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-success">Lưu</button>
+          <button type="button" class="btn btn-secondary" (click)="toggleForm()">Hủy</button>
       </form>
-    </div>
-  
-    <table class="table table-striped mt-4">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Tiêu đề</th>
-          <th>Thể loại</th>
-          <th>Thời lượng</th>
-          <th>Ngày khởi chiếu</th>
-          <th>Mô tả</th>
-          <th>Đạo diễn</th>
-          <th>Đánh giá</th>
-          <th>Poster</th>
-          <th>Trailer</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let phim of phims">
-          <td>{{ phim.PhimID }}</td>
-          <td>{{ phim.TieuDe }}</td>
-          <td>{{ phim.TheLoai }}</td>
-          <td>{{ phim.ThoiLuong }}</td>
-          <td>{{ phim.NgayKhoiChieu | date }}</td>
-          <td>{{ phim.MoTa }}</td>
-          <td>{{ phim.DaoDien }}</td>
-          <td>{{ phim.DanhGia }}</td>
-          <td><img [src]="phim.PosterURL" alt="{{ phim.TieuDe }}" width="100"></td>
-          <td><a [href]="phim.TrailerURL" target="_blank">Trailer</a></td>
-          <td>
-            <button class="btn btn-warning" (click)="editPhim(phim)">Sửa</button>
-            <button class="btn btn-danger" (click)="deletePhim(phim.PhimID)">Xóa</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
   </div>
-  
+
+  <div *ngIf="!showForm">
+      <table class="table table-striped mt-4">
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Tiêu đề</th>
+                  <th>Thể loại</th>
+                  <th>Thời lượng</th>
+                  <th>Ngày khởi chiếu</th>
+                  <th>Mô tả</th>
+                  <th>Đạo diễn</th>
+                  <th>Đánh giá</th>
+                  <th>Poster</th>
+                  <th>Trailer</th>
+                  <th>Actions</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let phim of phims">
+                  <td>{{ phim.PhimID }}</td>
+                  <td>{{ phim.TieuDe }}</td>
+                  <td>{{ phim.TheLoai }}</td>
+                  <td>{{ phim.ThoiLuong }}</td>
+                  <td>{{ phim.NgayKhoiChieu | date }}</td>
+                  <td>{{ phim.MoTa }}</td>
+                  <td>{{ phim.DaoDien }}</td>
+                  <td>{{ phim.DanhGia }}</td>
+                  <td><img [src]="phim.PosterURL" alt="{{ phim.TieuDe }}" width="100"></td>
+                  <td><a [href]="phim.TrailerURL" target="_blank">Trailer</a></td>
+                  <td>
+                      <button class="btn btn-warning" (click)="editPhim(phim)">Sửa</button>
+                      <button class="btn btn-danger" (click)="deletePhim(phim.PhimID)">Xóa</button>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
