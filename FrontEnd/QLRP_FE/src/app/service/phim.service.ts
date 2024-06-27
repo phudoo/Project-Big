@@ -35,4 +35,9 @@ export class PhimService {
     const url = `${this.apiURL}/${id}`;
     return this.http.delete<any>(url);
   }
+    // phim.service.ts
+searchPhimByTitle(TieuDe: string): Observable<any> {
+  const url = `${this.apiURL}/search?TieuDe=${TieuDe}`;
+  return this.http.get<any>(url);
+}
 }

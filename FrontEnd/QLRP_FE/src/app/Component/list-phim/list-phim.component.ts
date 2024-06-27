@@ -13,8 +13,10 @@ export class ListPhimComponent implements OnInit {
   Phim: any[] = [];
   currentPage: number = 1;
   itemsPerPage: number = 4; // Number of items per page
+  searchText: string = ''; // Input for search
 
-  constructor(private phims: PhimService) {}
+
+  constructor(private phims: PhimService, private router: Router) {}
 
   ngOnInit(): void {
     this.loadPhim();
@@ -51,5 +53,23 @@ export class ListPhimComponent implements OnInit {
   get totalPages(): number {
     return Math.ceil(this.Phim.length / this.itemsPerPage);
   }
+
+  onLogout() {
+    // Add your logout logic here (e.g., removing user token, clearing session storage)
+    console.log('User logged out');
+    // Redirect to the login page
+    this.router.navigate(['/login']);
+  }
+ // list-phim.component.ts
+searchPhim() {
+  if (this.searchText.trim() === '') {
+    this.loadPhim(); // Reload all movies if search text is empty
+  } else {
+    this.phims.searchPhimByTitle(this.searchText).subscribe(res => {
+      this.Phim = res;
+      this.currentPage = 1; // Reset to first page after search
+    });
+  }
+}
 
 }
